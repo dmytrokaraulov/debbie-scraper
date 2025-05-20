@@ -6,27 +6,27 @@ const fs = require('fs');
 async function scrapeTableData() {
   const url = 'https://www.ibanknet.com/scripts/callreports/fiList.aspx?type=ncua';
   const res = await axios.get(url);
-  const $ = cheerio.load(res.data);
 
+  console.log(res.data.slice(0, 1000)); // ✅ This is now inside an async function
+
+  const $ = cheerio.load(res.data);
   const rows = [];
+
   $('table tr').each((_, tr) => {
     const cols = [];
     $(tr).find('td').each((_, td) => {
       cols.push($(td).text().trim());
     });
     if (cols.length) rows.push(cols);
-  }); // ✅ This line was missing!
+  });
 
-  // Now we need to visit linked pages from the table
   const links = [];
   $('table tr a').each((_, a) => {
     const link = $(a).attr('href');
     if (link) links.push(link);
   });
 
-  // Get additional data from the linked pages
   const additionalData = await scrapeAdditionalPages(links);
-
   return { updated: new Date().toISOString(), tableData: rows, additionalData };
 }
 
@@ -57,7 +57,3 @@ updateDataFile().catch((err) => {
   console.error('Error during scraping:', err);
 });
 
-const res = await axios.get(url);
-const html = res.data;
-console.log(html.slice(0, 1000)); // Show first 1000 chars
-const $ = cheerio.load(html);
