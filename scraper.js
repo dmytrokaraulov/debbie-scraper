@@ -56,3 +56,8 @@ async function updateDataFile() {
 updateDataFile().catch((err) => {
   console.error('Error during scraping:', err);
 });
+
+const res = await axios.get(url);
+const html = res.data;
+console.log(html.slice(0, 1000)); // Show first 1000 chars
+const $ = cheerio.load(html);
