@@ -2,12 +2,11 @@ const axios = require('axios');
 const cheerio = require('cheerio');
 const fs = require('fs');
 
-// Scraping function
 async function scrapeTableData() {
   const url = 'https://www.ibanknet.com/scripts/callreports/fiList.aspx?type=ncua';
   const res = await axios.get(url);
 
-  console.log(res.data.slice(0, 1000)); // ✅ This is now inside an async function
+  console.log(res.data.slice(0, 1000)); // Logs first 1000 chars of HTML
 
   const $ = cheerio.load(res.data);
   const rows = [];
@@ -20,40 +19,52 @@ async function scrapeTableData() {
     if (cols.length) rows.push(cols);
   });
 
+  // Collect all hrefs inside table rows
   const links = [];
   $('table tr a').each((_, a) => {
-    const link = $(a).attr('href');
-    if (link) links.push(link);
+    let link = $(a).attr('href');
+    if (link) {
+      // Make relative path if needed
+      if (!link.startsWith('http')) {
+        link = link.replace(/^\/+/, ''); // remove leading slash
+        link = 'https://www.ibanknet.com/scripts/callreports/' + link;
+      }
+      links.push(link);
+    }
   });
 
   const additionalData = await scrapeAdditionalPages(links);
   return { updated: new Date().toISOString(), tableData: rows, additionalData };
 }
 
-// Function to scrape linked pages
 async function scrapeAdditionalPages(links) {
   const additionalData = [];
 
-  for (const link of links) {
-    const res = await axios.get(`https://www.ibanknet.com/scripts/callreports/${link}`);
-    const $ = cheerio.load(res.data);
-    
-    // Example of extracting data from a linked page (adjust based on actual page content)
-    const pageData = { pageTitle: $('title').text() }; // Just an example, modify as needed
-    additionalData.push(pageData);
-  }
+  // Scrape linked pages concurrently with error handling
+  await Promise.all(links.map(async (link) => {
+    try {
+      const res = await axios.get(link);
+      const $ = cheerio.load(res.data);
+      const pageTitle = $('title').text();
+
+      // You can extract more data here, e.g. specific table or div
+      additionalData.push({ url: link, pageTitle });
+    } catch (err) {
+      console.error(`Error fetching linked page ${link}:`, err.message);
+    }
+  }));
 
   return additionalData;
 }
 
-// Main function to update the JSON file
 async function updateDataFile() {
-  const data = await scrapeTableData();
-  fs.writeFileSync('data.json', JSON.stringify(data, null, 2));
-  console.log('Data updated!');
+  try {
+    const data = await scrapeTableData();
+    fs.writeFileSync('data.json', JSON.stringify(data, null, 2));
+    console.log('Data updated and saved to data.json!');
+  } catch (err) {
+    console.error('Error during scraping:', err);
+  }
 }
 
-updateDataFile().catch((err) => {
-  console.error('Error during scraping:', err);
-});
-
+updateDataFile();
