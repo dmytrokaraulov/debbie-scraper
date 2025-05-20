@@ -15,7 +15,7 @@ async function scrapeTableData() {
       cols.push($(td).text().trim());
     });
     if (cols.length) rows.push(cols);
-  }
+  }); // ✅ This line was missing!
 
   // Now we need to visit linked pages from the table
   const links = [];
