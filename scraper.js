@@ -27,7 +27,7 @@ async function scrapeTableData() {
   // Get additional data from the linked pages
   const additionalData = await scrapeAdditionalPages(links);
 
-  return { updated: new Date(), tableData: rows, additionalData };
+  return { updated: new Date().toISOString(), tableData: rows, additionalData };
 }
 
 // Function to scrape linked pages
