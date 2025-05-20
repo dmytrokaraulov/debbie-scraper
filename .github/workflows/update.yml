@@ -1,5 +1,8 @@
 name: Update data.json twice daily
 
+permissions:
+  contents: write
+
 on:
   schedule:
     # Runs at 6:00 and 18:00 UTC daily
