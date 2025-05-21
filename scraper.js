@@ -36,7 +36,7 @@ async function fetchTotalAssets(id) {
 
     let value = null;
 
-    $('tr.bodycontentbold').each((_, row) => {
+    $('tr').each((_, row) => {
       const cells = $(row).find('td');
       const label = $(cells[0]).text().trim();
       if (label === 'TOTAL ASSETS') {
@@ -52,16 +52,42 @@ async function fetchTotalAssets(id) {
   }
 }
 
+async function fetchMarketingBudget(id) {
+  const reportUrl = `https://www.ibanknet.com/scripts/callreports/viewreport.aspx?ibnid=${id}&per=20240930&rpt=NI&typ=html`;
+
+  try {
+    const res = await axios.get(reportUrl);
+    const $ = cheerio.load(res.data);
+
+    let value = null;
+
+    $('tr').each((_, row) => {
+      const cells = $(row).find('td');
+      const label = $(cells[0]).text().trim();
+      if (label === 'Educational and Promotional Expenses') {
+        const rawValue = $(cells[1]).text().trim().replace(/,/g, '');
+        value = parseInt(rawValue, 10);
+      }
+    });
+
+    return value;
+  } catch (err) {
+    console.error(`Error fetching marketing budget for ${id}: ${err.message}`);
+    return null;
+  }
+}
+
 async function updateDataFile() {
   try {
     const banks = await scrapeLinksWithClass();
 
     for (const bank of banks) {
       bank.totalAssets = await fetchTotalAssets(bank.id);
+      bank.marketingBudget = await fetchMarketingBudget(bank.id);
     }
 
     fs.writeFileSync('data.json', JSON.stringify(banks, null, 2));
-    console.log('Data with total assets saved to data.json!');
+    console.log('Data with total assets and marketing budget saved to data.json!');
   } catch (err) {
     console.error('Error during scraping:', err);
   }
