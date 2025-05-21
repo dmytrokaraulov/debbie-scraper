@@ -77,6 +77,31 @@ async function fetchMarketingBudget(id) {
   }
 }
 
+async function fetchMemberCount(id) {
+  const reportUrl = `https://www.ibanknet.com/scripts/callreports/viewreport.aspx?ibnid=${id}&per=20231231&rpt=D&typ=html`;
+
+  try {
+    const res = await axios.get(reportUrl);
+    const $ = cheerio.load(res.data);
+
+    let value = null;
+
+    $('tr').each((_, row) => {
+      const cells = $(row).find('td');
+      const label = $(cells[0]).text().trim();
+      if (label === 'Number of current members (not number of accounts)') {
+        const rawValue = $(cells[1]).text().trim().replace(/,/g, '');
+        value = parseInt(rawValue, 10);
+      }
+    });
+
+    return value;
+  } catch (err) {
+    console.error(`Error fetching member count for ${id}: ${err.message}`);
+    return null;
+  }
+}
+
 async function updateDataFile() {
   try {
     const banks = await scrapeLinksWithClass();
@@ -84,6 +109,7 @@ async function updateDataFile() {
     for (const bank of banks) {
       bank.totalAssets = await fetchTotalAssets(bank.id);
       bank.marketingBudget = await fetchMarketingBudget(bank.id);
+      bank.memberCount = await fetchMemberCount(bank.id);
     }
 
     fs.writeFileSync('data.json', JSON.stringify(banks, null, 2));
