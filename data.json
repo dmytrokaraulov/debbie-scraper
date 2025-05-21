@@ -1,502 +1,502 @@
 [
   {
-    "text": "NAVY FEDERAL CREDIT UNION",
+    "name": "NAVY FEDERAL CREDIT UNION",
     "id": "usa_617677",
-    "href": "https://www.ibanknet.com/scripts/callreports/getbank.aspx?ibnid=usa_617677"
+    "totalAssets": 180813031049
   },
   {
-    "text": "STATE EMPLOYEES' CREDIT UNION",
+    "name": "STATE EMPLOYEES' CREDIT UNION",
     "id": "usa_1189117",
-    "href": "https://www.ibanknet.com/scripts/callreports/getbank.aspx?ibnid=usa_1189117"
+    "totalAssets": 52987314229
   },
   {
-    "text": "SCHOOLSFIRST FEDERAL CREDIT UNION",
+    "name": "SCHOOLSFIRST FEDERAL CREDIT UNION",
     "id": "usa_937898",
-    "href": "https://www.ibanknet.com/scripts/callreports/getbank.aspx?ibnid=usa_937898"
+    "totalAssets": 31926537828
   },
   {
-    "text": "PENTAGON FEDERAL CREDIT UNION",
+    "name": "PENTAGON FEDERAL CREDIT UNION",
     "id": "usa_546571",
-    "href": "https://www.ibanknet.com/scripts/callreports/getbank.aspx?ibnid=usa_546571"
+    "totalAssets": 31010251746
   },
   {
-    "text": "BOEING EMPLOYEES CREDIT UNION",
+    "name": "BOEING EMPLOYEES CREDIT UNION",
     "id": "usa_972590",
-    "href": "https://www.ibanknet.com/scripts/callreports/getbank.aspx?ibnid=usa_972590"
+    "totalAssets": 29352686763
   },
   {
-    "text": "AMERICA FIRST FEDERAL CREDIT UNION",
+    "name": "AMERICA FIRST FEDERAL CREDIT UNION",
     "id": "usa_277697",
-    "href": "https://www.ibanknet.com/scripts/callreports/getbank.aspx?ibnid=usa_277697"
+    "totalAssets": 21737352420
   },
   {
-    "text": "MOUNTAIN AMERICA FEDERAL CREDIT UNION",
+    "name": "MOUNTAIN AMERICA FEDERAL CREDIT UNION",
     "id": "usa_611198",
-    "href": "https://www.ibanknet.com/scripts/callreports/getbank.aspx?ibnid=usa_611198"
+    "totalAssets": 20205566939
   },
   {
-    "text": "THE GOLDEN 1 CREDIT UNION",
+    "name": "THE GOLDEN 1 CREDIT UNION",
     "id": "usa_959395",
-    "href": "https://www.ibanknet.com/scripts/callreports/getbank.aspx?ibnid=usa_959395"
+    "totalAssets": 19609426722
   },
   {
-    "text": "ALLIANT CREDIT UNION",
+    "name": "ALLIANT CREDIT UNION",
     "id": "usa_367392",
-    "href": "https://www.ibanknet.com/scripts/callreports/getbank.aspx?ibnid=usa_367392"
+    "totalAssets": 19539151844
   },
   {
-    "text": "RANDOLPH-BROOKS FEDERAL CREDIT UNION",
+    "name": "RANDOLPH-BROOKS FEDERAL CREDIT UNION",
     "id": "usa_491381",
-    "href": "https://www.ibanknet.com/scripts/callreports/getbank.aspx?ibnid=usa_491381"
+    "totalAssets": 17955211987
   },
   {
-    "text": "SUNCOAST CREDIT UNION",
+    "name": "SUNCOAST CREDIT UNION",
     "id": "usa_25085",
-    "href": "https://www.ibanknet.com/scripts/callreports/getbank.aspx?ibnid=usa_25085"
+    "totalAssets": 17839722691
   },
   {
-    "text": "FIRST TECHNOLOGY FEDERAL CREDIT UNION",
+    "name": "FIRST TECHNOLOGY FEDERAL CREDIT UNION",
     "id": "usa_709787",
-    "href": "https://www.ibanknet.com/scripts/callreports/getbank.aspx?ibnid=usa_709787"
+    "totalAssets": 17373578853
   },
   {
-    "text": "LAKE MICHIGAN CREDIT UNION",
+    "name": "LAKE MICHIGAN CREDIT UNION",
     "id": "usa_651596",
-    "href": "https://www.ibanknet.com/scripts/callreports/getbank.aspx?ibnid=usa_651596"
+    "totalAssets": 14527369395
   },
   {
-    "text": "VYSTAR CREDIT UNION",
+    "name": "VYSTAR CREDIT UNION",
     "id": "usa_99189",
-    "href": "https://www.ibanknet.com/scripts/callreports/getbank.aspx?ibnid=usa_99189"
+    "totalAssets": 13974902170
   },
   {
-    "text": "SECURITY SERVICE FEDERAL CREDIT UNION",
+    "name": "SECURITY SERVICE FEDERAL CREDIT UNION",
     "id": "usa_666581",
-    "href": "https://www.ibanknet.com/scripts/callreports/getbank.aspx?ibnid=usa_666581"
+    "totalAssets": 13710095590
   },
   {
-    "text": "BETHPAGE FEDERAL CREDIT UNION",
+    "name": "BETHPAGE FEDERAL CREDIT UNION",
     "id": "usa_136374",
-    "href": "https://www.ibanknet.com/scripts/callreports/getbank.aspx?ibnid=usa_136374"
+    "totalAssets": 13371669759
   },
   {
-    "text": "DIGITAL FEDERAL CREDIT UNION",
+    "name": "DIGITAL FEDERAL CREDIT UNION",
     "id": "usa_483386",
-    "href": "https://www.ibanknet.com/scripts/callreports/getbank.aspx?ibnid=usa_483386"
+    "totalAssets": 12642183330
   },
   {
-    "text": "IDAHO CENTRAL CREDIT UNION",
+    "name": "IDAHO CENTRAL CREDIT UNION",
     "id": "usa_322793",
-    "href": "https://www.ibanknet.com/scripts/callreports/getbank.aspx?ibnid=usa_322793"
+    "totalAssets": 12120188554
   },
   {
-    "text": "GLOBAL FEDERAL CREDIT UNION",
+    "name": "GLOBAL FEDERAL CREDIT UNION",
     "id": "usa_366573",
-    "href": "https://www.ibanknet.com/scripts/callreports/getbank.aspx?ibnid=usa_366573"
+    "totalAssets": 11481948321
   },
   {
-    "text": "GREENSTATE CREDIT UNION",
+    "name": "GREENSTATE CREDIT UNION",
     "id": "usa_225698",
-    "href": "https://www.ibanknet.com/scripts/callreports/getbank.aspx?ibnid=usa_225698"
+    "totalAssets": 10640946533
   },
   {
-    "text": "TEACHERS FEDERAL CREDIT UNION",
+    "name": "TEACHERS FEDERAL CREDIT UNION",
     "id": "usa_491783",
-    "href": "https://www.ibanknet.com/scripts/callreports/getbank.aspx?ibnid=usa_491783"
+    "totalAssets": 9864017485
   },
   {
-    "text": "ENT CREDIT UNION",
+    "name": "ENT CREDIT UNION",
     "id": "usa_660589",
-    "href": "https://www.ibanknet.com/scripts/callreports/getbank.aspx?ibnid=usa_660589"
+    "totalAssets": 9839179336
   },
   {
-    "text": "LOGIX FEDERAL CREDIT UNION",
+    "name": "LOGIX FEDERAL CREDIT UNION",
     "id": "usa_284378",
-    "href": "https://www.ibanknet.com/scripts/callreports/getbank.aspx?ibnid=usa_284378"
+    "totalAssets": 9726331677
   },
   {
-    "text": "UNITED NATIONS FEDERAL CREDIT UNION",
+    "name": "UNITED NATIONS FEDERAL CREDIT UNION",
     "id": "usa_752475",
-    "href": "https://www.ibanknet.com/scripts/callreports/getbank.aspx?ibnid=usa_752475"
+    "totalAssets": 9718998097
   },
   {
-    "text": "ONPOINT COMMUNITY CREDIT UNION",
+    "name": "ONPOINT COMMUNITY CREDIT UNION",
     "id": "usa_852393",
-    "href": "https://www.ibanknet.com/scripts/callreports/getbank.aspx?ibnid=usa_852393"
+    "totalAssets": 9711312299
   },
   {
-    "text": "ESL FEDERAL CREDIT UNION",
+    "name": "ESL FEDERAL CREDIT UNION",
     "id": "usa_243179",
-    "href": "https://www.ibanknet.com/scripts/callreports/getbank.aspx?ibnid=usa_243179"
+    "totalAssets": 9513673428
   },
   {
-    "text": "POLICE & FIRE FEDERAL CREDIT UNION",
+    "name": "POLICE & FIRE FEDERAL CREDIT UNION",
     "id": "usa_945978",
-    "href": "https://www.ibanknet.com/scripts/callreports/getbank.aspx?ibnid=usa_945978"
+    "totalAssets": 9485083975
   },
   {
-    "text": "STAR ONE CREDIT UNION",
+    "name": "STAR ONE CREDIT UNION",
     "id": "usa_472988",
-    "href": "https://www.ibanknet.com/scripts/callreports/getbank.aspx?ibnid=usa_472988"
+    "totalAssets": 9454397611
   },
   {
-    "text": "PATELCO CREDIT UNION",
+    "name": "PATELCO CREDIT UNION",
     "id": "usa_461496",
-    "href": "https://www.ibanknet.com/scripts/callreports/getbank.aspx?ibnid=usa_461496"
+    "totalAssets": 9414389310
   },
   {
-    "text": "WINGS FINANCIAL CREDIT UNION",
+    "name": "WINGS FINANCIAL CREDIT UNION",
     "id": "usa_290490",
-    "href": "https://www.ibanknet.com/scripts/callreports/getbank.aspx?ibnid=usa_290490"
+    "totalAssets": 9371410072
   },
   {
-    "text": "SAN DIEGO COUNTY CREDIT UNION",
+    "name": "SAN DIEGO COUNTY CREDIT UNION",
     "id": "usa_301190",
-    "href": "https://www.ibanknet.com/scripts/callreports/getbank.aspx?ibnid=usa_301190"
+    "totalAssets": 9165817993
   },
   {
-    "text": "REDWOOD CREDIT UNION",
+    "name": "REDWOOD CREDIT UNION",
     "id": "usa_238791",
-    "href": "https://www.ibanknet.com/scripts/callreports/getbank.aspx?ibnid=usa_238791"
+    "totalAssets": 9109020593
   },
   {
-    "text": "EASTMAN CREDIT UNION",
+    "name": "EASTMAN CREDIT UNION",
     "id": "usa_263391",
-    "href": "https://www.ibanknet.com/scripts/callreports/getbank.aspx?ibnid=usa_263391"
+    "totalAssets": 9097283047
   },
   {
-    "text": "AMERICAN AIRLINES FEDERAL CREDIT UNION",
+    "name": "AMERICAN AIRLINES FEDERAL CREDIT UNION",
     "id": "usa_49090",
-    "href": "https://www.ibanknet.com/scripts/callreports/getbank.aspx?ibnid=usa_49090"
+    "totalAssets": 9068237783
   },
   {
-    "text": "WRIGHT-PATT CREDIT UNION, INC.",
+    "name": "WRIGHT-PATT CREDIT UNION, INC.",
     "id": "usa_368492",
-    "href": "https://www.ibanknet.com/scripts/callreports/getbank.aspx?ibnid=usa_368492"
+    "totalAssets": 9066362338
   },
   {
-    "text": "SPACE COAST CREDIT UNION",
+    "name": "SPACE COAST CREDIT UNION",
     "id": "usa_26998",
-    "href": "https://www.ibanknet.com/scripts/callreports/getbank.aspx?ibnid=usa_26998"
+    "totalAssets": 8804691162
   },
   {
-    "text": "DESERT FINANCIAL CREDIT UNION",
+    "name": "DESERT FINANCIAL CREDIT UNION",
     "id": "usa_622475",
-    "href": "https://www.ibanknet.com/scripts/callreports/getbank.aspx?ibnid=usa_622475"
+    "totalAssets": 8783664703
   },
   {
-    "text": "PENNSYLVANIA STATE EMPLOYEES CREDIT UNION",
+    "name": "PENNSYLVANIA STATE EMPLOYEES CREDIT UNION",
     "id": "usa_268592",
-    "href": "https://www.ibanknet.com/scripts/callreports/getbank.aspx?ibnid=usa_268592"
+    "totalAssets": 8721275843
   },
   {
-    "text": "BROADVIEW FEDERAL CREDIT UNION",
+    "name": "BROADVIEW FEDERAL CREDIT UNION",
     "id": "usa_954970",
-    "href": "https://www.ibanknet.com/scripts/callreports/getbank.aspx?ibnid=usa_954970"
+    "totalAssets": 8677331461
   },
   {
-    "text": "DELTA COMMUNITY CREDIT UNION",
+    "name": "DELTA COMMUNITY CREDIT UNION",
     "id": "usa_112499",
-    "href": "https://www.ibanknet.com/scripts/callreports/getbank.aspx?ibnid=usa_112499"
+    "totalAssets": 8652742905
   },
   {
-    "text": "BELLCO CREDIT UNION",
+    "name": "BELLCO CREDIT UNION",
     "id": "usa_283698",
-    "href": "https://www.ibanknet.com/scripts/callreports/getbank.aspx?ibnid=usa_283698"
+    "totalAssets": 8591833460
   },
   {
-    "text": "MIDFLORIDA CREDIT UNION",
+    "name": "MIDFLORIDA CREDIT UNION",
     "id": "usa_101381",
-    "href": "https://www.ibanknet.com/scripts/callreports/getbank.aspx?ibnid=usa_101381"
+    "totalAssets": 8141992045
   },
   {
-    "text": "MICHIGAN STATE UNIVERSITY FEDERAL CREDIT UNION",
+    "name": "MICHIGAN STATE UNIVERSITY FEDERAL CREDIT UNION",
     "id": "usa_601489",
-    "href": "https://www.ibanknet.com/scripts/callreports/getbank.aspx?ibnid=usa_601489"
+    "totalAssets": 8052688965
   },
   {
-    "text": "MEMBERS 1ST FEDERAL CREDIT UNION",
+    "name": "MEMBERS 1ST FEDERAL CREDIT UNION",
     "id": "usa_934785",
-    "href": "https://www.ibanknet.com/scripts/callreports/getbank.aspx?ibnid=usa_934785"
+    "totalAssets": 8050941641
   },
   {
-    "text": "VERIDIAN CREDIT UNION",
+    "name": "VERIDIAN CREDIT UNION",
     "id": "usa_416197",
-    "href": "https://www.ibanknet.com/scripts/callreports/getbank.aspx?ibnid=usa_416197"
+    "totalAssets": 7960128611
   },
   {
-    "text": "CITIZENS EQUITY FIRST CREDIT UNION",
+    "name": "CITIZENS EQUITY FIRST CREDIT UNION",
     "id": "usa_606792",
-    "href": "https://www.ibanknet.com/scripts/callreports/getbank.aspx?ibnid=usa_606792"
+    "totalAssets": 7911421110
   },
   {
-    "text": "REDSTONE FEDERAL CREDIT UNION",
+    "name": "REDSTONE FEDERAL CREDIT UNION",
     "id": "usa_308489",
-    "href": "https://www.ibanknet.com/scripts/callreports/getbank.aspx?ibnid=usa_308489"
+    "totalAssets": 7890187484
   },
   {
-    "text": "SUMMIT CREDIT UNION",
+    "name": "SUMMIT CREDIT UNION",
     "id": "usa_734499",
-    "href": "https://www.ibanknet.com/scripts/callreports/getbank.aspx?ibnid=usa_734499"
+    "totalAssets": 7458311100
   },
   {
-    "text": "HUDSON VALLEY CREDIT UNION",
+    "name": "HUDSON VALLEY CREDIT UNION",
     "id": "usa_483180",
-    "href": "https://www.ibanknet.com/scripts/callreports/getbank.aspx?ibnid=usa_483180"
+    "totalAssets": 7450729291
   },
   {
-    "text": "VIRGINIA FEDERAL CREDIT UNION",
+    "name": "VIRGINIA FEDERAL CREDIT UNION",
     "id": "usa_807795",
-    "href": "https://www.ibanknet.com/scripts/callreports/getbank.aspx?ibnid=usa_807795"
+    "totalAssets": 6851034010
   },
   {
-    "text": "LANDMARK CREDIT UNION",
+    "name": "LANDMARK CREDIT UNION",
     "id": "usa_572495",
-    "href": "https://www.ibanknet.com/scripts/callreports/getbank.aspx?ibnid=usa_572495"
+    "totalAssets": 6770014749
   },
   {
-    "text": "DFCU FINANCIAL CREDIT UNION",
+    "name": "DFCU FINANCIAL CREDIT UNION",
     "id": "usa_29980",
-    "href": "https://www.ibanknet.com/scripts/callreports/getbank.aspx?ibnid=usa_29980"
+    "totalAssets": 6661977812
   },
   {
-    "text": "KINECTA FEDERAL CREDIT UNION",
+    "name": "KINECTA FEDERAL CREDIT UNION",
     "id": "usa_277473",
-    "href": "https://www.ibanknet.com/scripts/callreports/getbank.aspx?ibnid=usa_277473"
+    "totalAssets": 6656773721
   },
   {
-    "text": "MISSION FEDERAL CREDIT UNION",
+    "name": "MISSION FEDERAL CREDIT UNION",
     "id": "usa_133186",
-    "href": "https://www.ibanknet.com/scripts/callreports/getbank.aspx?ibnid=usa_133186"
+    "totalAssets": 6609922649
   },
   {
-    "text": "BANK FUND STAFF FEDERAL CREDIT UNION",
+    "name": "BANK FUND STAFF FEDERAL CREDIT UNION",
     "id": "usa_561471",
-    "href": "https://www.ibanknet.com/scripts/callreports/getbank.aspx?ibnid=usa_561471"
+    "totalAssets": 6529027895
   },
   {
-    "text": "WESCOM CENTRAL CREDIT UNION",
+    "name": "WESCOM CENTRAL CREDIT UNION",
     "id": "usa_344692",
-    "href": "https://www.ibanknet.com/scripts/callreports/getbank.aspx?ibnid=usa_344692"
+    "totalAssets": 6276758433
   },
   {
-    "text": "CITADEL FEDERAL CREDIT UNION",
+    "name": "CITADEL FEDERAL CREDIT UNION",
     "id": "usa_167873",
-    "href": "https://www.ibanknet.com/scripts/callreports/getbank.aspx?ibnid=usa_167873"
+    "totalAssets": 6161955853
   },
   {
-    "text": "COMMUNITY FIRST CREDIT UNION",
+    "name": "COMMUNITY FIRST CREDIT UNION",
     "id": "usa_813394",
-    "href": "https://www.ibanknet.com/scripts/callreports/getbank.aspx?ibnid=usa_813394"
+    "totalAssets": 6031707524
   },
   {
-    "text": "TINKER FEDERAL CREDIT UNION",
+    "name": "TINKER FEDERAL CREDIT UNION",
     "id": "usa_220590",
-    "href": "https://www.ibanknet.com/scripts/callreports/getbank.aspx?ibnid=usa_220590"
+    "totalAssets": 6029604056
   },
   {
-    "text": "BAXTER CREDIT UNION",
+    "name": "BAXTER CREDIT UNION",
     "id": "usa_858975",
-    "href": "https://www.ibanknet.com/scripts/callreports/getbank.aspx?ibnid=usa_858975"
+    "totalAssets": 6018343455
   },
   {
-    "text": "SPOKANE TEACHERS CREDIT UNION",
+    "name": "SPOKANE TEACHERS CREDIT UNION",
     "id": "usa_678892",
-    "href": "https://www.ibanknet.com/scripts/callreports/getbank.aspx?ibnid=usa_678892"
+    "totalAssets": 5851118982
   },
   {
-    "text": "SERVICE FEDERAL CREDIT UNION",
+    "name": "SERVICE FEDERAL CREDIT UNION",
     "id": "usa_839581",
-    "href": "https://www.ibanknet.com/scripts/callreports/getbank.aspx?ibnid=usa_839581"
+    "totalAssets": 5801474858
   },
   {
-    "text": "UNIVERSITY OF WISCONSIN CREDIT UNION",
+    "name": "UNIVERSITY OF WISCONSIN CREDIT UNION",
     "id": "usa_789097",
-    "href": "https://www.ibanknet.com/scripts/callreports/getbank.aspx?ibnid=usa_789097"
+    "totalAssets": 5653143608
   },
   {
-    "text": "GESA CREDIT UNION",
+    "name": "GESA CREDIT UNION",
     "id": "usa_389086",
-    "href": "https://www.ibanknet.com/scripts/callreports/getbank.aspx?ibnid=usa_389086"
+    "totalAssets": 5629623350
   },
   {
-    "text": "NASA FEDERAL CREDIT UNION",
+    "name": "NASA FEDERAL CREDIT UNION",
     "id": "usa_910181",
-    "href": "https://www.ibanknet.com/scripts/callreports/getbank.aspx?ibnid=usa_910181"
+    "totalAssets": 5517515772
   },
   {
-    "text": "COASTAL FEDERAL CREDIT UNION",
+    "name": "COASTAL FEDERAL CREDIT UNION",
     "id": "usa_398583",
-    "href": "https://www.ibanknet.com/scripts/callreports/getbank.aspx?ibnid=usa_398583"
+    "totalAssets": 5507014519
   },
   {
-    "text": "STATE EMPLOYEES CU OF MARYLAND, INC CREDIT UNION",
+    "name": "STATE EMPLOYEES CU OF MARYLAND, INC CREDIT UNION",
     "id": "usa_218597",
-    "href": "https://www.ibanknet.com/scripts/callreports/getbank.aspx?ibnid=usa_218597"
+    "totalAssets": 5471102557
   },
   {
-    "text": "TRUSTONE FINANCIAL CREDIT UNION",
+    "name": "TRUSTONE FINANCIAL CREDIT UNION",
     "id": "usa_427399",
-    "href": "https://www.ibanknet.com/scripts/callreports/getbank.aspx?ibnid=usa_427399"
+    "totalAssets": 5423588090
   },
   {
-    "text": "LANGLEY FEDERAL CREDIT UNION",
+    "name": "LANGLEY FEDERAL CREDIT UNION",
     "id": "usa_722674",
-    "href": "https://www.ibanknet.com/scripts/callreports/getbank.aspx?ibnid=usa_722674"
+    "totalAssets": 5401124888
   },
   {
-    "text": "ROYAL CREDIT UNION",
+    "name": "ROYAL CREDIT UNION",
     "id": "usa_961295",
-    "href": "https://www.ibanknet.com/scripts/callreports/getbank.aspx?ibnid=usa_961295"
+    "totalAssets": 5329096009
   },
   {
-    "text": "GENISYS CREDIT UNION",
+    "name": "GENISYS CREDIT UNION",
     "id": "usa_1758821",
-    "href": "https://www.ibanknet.com/scripts/callreports/getbank.aspx?ibnid=usa_1758821"
+    "totalAssets": 5305851643
   },
   {
-    "text": "TRAVIS CREDIT UNION",
+    "name": "TRAVIS CREDIT UNION",
     "id": "usa_212586",
-    "href": "https://www.ibanknet.com/scripts/callreports/getbank.aspx?ibnid=usa_212586"
+    "totalAssets": 5253880860
   },
   {
-    "text": "EVERWISE CREDIT UNION",
+    "name": "EVERWISE CREDIT UNION",
     "id": "usa_275590",
-    "href": "https://www.ibanknet.com/scripts/callreports/getbank.aspx?ibnid=usa_275590"
+    "totalAssets": 5249872203
   },
   {
-    "text": "VISIONS FEDERAL CREDIT UNION",
+    "name": "VISIONS FEDERAL CREDIT UNION",
     "id": "usa_562786",
-    "href": "https://www.ibanknet.com/scripts/callreports/getbank.aspx?ibnid=usa_562786"
+    "totalAssets": 5226377683
   },
   {
-    "text": "TRULIANT FEDERAL CREDIT UNION",
+    "name": "TRULIANT FEDERAL CREDIT UNION",
     "id": "usa_446185",
-    "href": "https://www.ibanknet.com/scripts/callreports/getbank.aspx?ibnid=usa_446185"
+    "totalAssets": 5215106326
   },
   {
-    "text": "WASHINGTON STATE EMPLOYEES CREDIT UNION",
+    "name": "WASHINGTON STATE EMPLOYEES CREDIT UNION",
     "id": "usa_608198",
-    "href": "https://www.ibanknet.com/scripts/callreports/getbank.aspx?ibnid=usa_608198"
+    "totalAssets": 5165066322
   },
   {
-    "text": "COMMUNITYAMERICA CREDIT UNION",
+    "name": "COMMUNITYAMERICA CREDIT UNION",
     "id": "usa_524494",
-    "href": "https://www.ibanknet.com/scripts/callreports/getbank.aspx?ibnid=usa_524494"
+    "totalAssets": 5079185569
   },
   {
-    "text": "AMERICAN HERITAGE FEDERAL CREDIT UNION",
+    "name": "AMERICAN HERITAGE FEDERAL CREDIT UNION",
     "id": "usa_801878",
-    "href": "https://www.ibanknet.com/scripts/callreports/getbank.aspx?ibnid=usa_801878"
+    "totalAssets": 5059207723
   },
   {
-    "text": "CALIFORNIA CREDIT UNION",
+    "name": "CALIFORNIA CREDIT UNION",
     "id": "usa_234597",
-    "href": "https://www.ibanknet.com/scripts/callreports/getbank.aspx?ibnid=usa_234597"
+    "totalAssets": 5046381674
   },
   {
-    "text": "CHEVRON FEDERAL CREDIT UNION",
+    "name": "CHEVRON FEDERAL CREDIT UNION",
     "id": "usa_414894",
-    "href": "https://www.ibanknet.com/scripts/callreports/getbank.aspx?ibnid=usa_414894"
+    "totalAssets": 4907392740
   },
   {
-    "text": "TEXAS DOW EMPLOYEES CREDIT UNION",
+    "name": "TEXAS DOW EMPLOYEES CREDIT UNION",
     "id": "usa_434593",
-    "href": "https://www.ibanknet.com/scripts/callreports/getbank.aspx?ibnid=usa_434593"
+    "totalAssets": 4773473411
   },
   {
-    "text": "TECHNOLOGY CREDIT UNION",
+    "name": "TECHNOLOGY CREDIT UNION",
     "id": "usa_171889",
-    "href": "https://www.ibanknet.com/scripts/callreports/getbank.aspx?ibnid=usa_171889"
+    "totalAssets": 4768851734
   },
   {
-    "text": "FOUNDERS FEDERAL CREDIT UNION",
+    "name": "FOUNDERS FEDERAL CREDIT UNION",
     "id": "usa_549291",
-    "href": "https://www.ibanknet.com/scripts/callreports/getbank.aspx?ibnid=usa_549291"
+    "totalAssets": 4763530127
   },
   {
-    "text": "FAIRWINDS CREDIT UNION",
+    "name": "FAIRWINDS CREDIT UNION",
     "id": "usa_414371",
-    "href": "https://www.ibanknet.com/scripts/callreports/getbank.aspx?ibnid=usa_414371"
+    "totalAssets": 4725516706
   },
   {
-    "text": "EDUCATIONAL EMPLOYEES CREDIT UNION",
+    "name": "EDUCATIONAL EMPLOYEES CREDIT UNION",
     "id": "usa_504898",
-    "href": "https://www.ibanknet.com/scripts/callreports/getbank.aspx?ibnid=usa_504898"
+    "totalAssets": 4711208088
   },
   {
-    "text": "NUSENDA FEDERAL CREDIT UNION",
+    "name": "NUSENDA FEDERAL CREDIT UNION",
     "id": "usa_763976",
-    "href": "https://www.ibanknet.com/scripts/callreports/getbank.aspx?ibnid=usa_763976"
+    "totalAssets": 4679346450
   },
   {
-    "text": "KNOXVILLE TVA EMPLOYEES CREDIT UNION",
+    "name": "KNOXVILLE TVA EMPLOYEES CREDIT UNION",
     "id": "usa_456492",
-    "href": "https://www.ibanknet.com/scripts/callreports/getbank.aspx?ibnid=usa_456492"
+    "totalAssets": 4620066214
   },
   {
-    "text": "APPLE FEDERAL CREDIT UNION",
+    "name": "APPLE FEDERAL CREDIT UNION",
     "id": "usa_625289",
-    "href": "https://www.ibanknet.com/scripts/callreports/getbank.aspx?ibnid=usa_625289"
+    "totalAssets": 4619212792
   },
   {
-    "text": "ROBINS FINANCIAL CREDIT UNION",
+    "name": "ROBINS FINANCIAL CREDIT UNION",
     "id": "usa_410784",
-    "href": "https://www.ibanknet.com/scripts/callreports/getbank.aspx?ibnid=usa_410784"
+    "totalAssets": 4587561437
   },
   {
-    "text": "CANVAS CREDIT UNION",
+    "name": "CANVAS CREDIT UNION",
     "id": "usa_863399",
-    "href": "https://www.ibanknet.com/scripts/callreports/getbank.aspx?ibnid=usa_863399"
+    "totalAssets": 4585707238
   },
   {
-    "text": "TOWER FEDERAL CREDIT UNION",
+    "name": "TOWER FEDERAL CREDIT UNION",
     "id": "usa_498586",
-    "href": "https://www.ibanknet.com/scripts/callreports/getbank.aspx?ibnid=usa_498586"
+    "totalAssets": 4544433656
   },
   {
-    "text": "JOVIA FINANCIAL FEDERAL CREDIT UNION",
+    "name": "JOVIA FINANCIAL FEDERAL CREDIT UNION",
     "id": "usa_823674",
-    "href": "https://www.ibanknet.com/scripts/callreports/getbank.aspx?ibnid=usa_823674"
+    "totalAssets": 4535809116
   },
   {
-    "text": "FIRST COMMUNITY CREDIT UNION",
+    "name": "FIRST COMMUNITY CREDIT UNION",
     "id": "usa_674997",
-    "href": "https://www.ibanknet.com/scripts/callreports/getbank.aspx?ibnid=usa_674997"
+    "totalAssets": 4517141449
   },
   {
-    "text": "RALLY CREDIT UNION",
+    "name": "RALLY CREDIT UNION",
     "id": "usa_930189",
-    "href": "https://www.ibanknet.com/scripts/callreports/getbank.aspx?ibnid=usa_930189"
+    "totalAssets": 4502405665
   },
   {
-    "text": "MUNICIPAL CREDIT UNION",
+    "name": "MUNICIPAL CREDIT UNION",
     "id": "usa_210797",
-    "href": "https://www.ibanknet.com/scripts/callreports/getbank.aspx?ibnid=usa_210797"
+    "totalAssets": 4485844234
   },
   {
-    "text": "STATE FARM FEDERAL CREDIT UNION",
+    "name": "STATE FARM FEDERAL CREDIT UNION",
     "id": "usa_231176",
-    "href": "https://www.ibanknet.com/scripts/callreports/getbank.aspx?ibnid=usa_231176"
+    "totalAssets": 4435870489
   },
   {
-    "text": "GENERAL ELECTRIC CREDIT UNION",
+    "name": "GENERAL ELECTRIC CREDIT UNION",
     "id": "usa_23287",
-    "href": "https://www.ibanknet.com/scripts/callreports/getbank.aspx?ibnid=usa_23287"
+    "totalAssets": 4431414011
   },
   {
-    "text": "ASCEND FEDERAL CREDIT UNION",
+    "name": "ASCEND FEDERAL CREDIT UNION",
     "id": "usa_290986",
-    "href": "https://www.ibanknet.com/scripts/callreports/getbank.aspx?ibnid=usa_290986"
+    "totalAssets": 4412185885
   },
   {
-    "text": "CREDIT HUMAN FEDERAL CREDIT UNION",
+    "name": "CREDIT HUMAN FEDERAL CREDIT UNION",
     "id": "usa_460592",
-    "href": "https://www.ibanknet.com/scripts/callreports/getbank.aspx?ibnid=usa_460592"
+    "totalAssets": 4349525938
   },
   {
-    "text": "GECU FEDERAL CREDIT UNION",
+    "name": "GECU FEDERAL CREDIT UNION",
     "id": "usa_364690",
-    "href": "https://www.ibanknet.com/scripts/callreports/getbank.aspx?ibnid=usa_364690"
+    "totalAssets": 4341283941
   }
 ]
