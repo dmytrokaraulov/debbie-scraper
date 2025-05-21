@@ -12,14 +12,14 @@ async function scrapeLinksWithClass() {
   $('a.pagebody').each((_, a) => {
     const el = $(a);
     const href = el.attr('href');
-    const text = el.text().trim();
+    const name = el.text().trim();
 
     if (href && href.includes('ibnid=')) {
       const idMatch = href.match(/ibnid=([^&]+)/);
       const id = idMatch ? idMatch[1] : null;
 
       if (id) {
-        linksData.push({ text, id, href: new URL(href, url).href });
+        linksData.push({ name, id });
       }
     }
   });
