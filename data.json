@@ -2,501 +2,601 @@
   {
     "name": "NAVY FEDERAL CREDIT UNION",
     "id": "usa_617677",
-    "totalAssets": 180813031049
+    "totalAssets": 180813031049,
+    "marketingBudget": 144721573
   },
   {
     "name": "STATE EMPLOYEES' CREDIT UNION",
     "id": "usa_1189117",
-    "totalAssets": 52987314229
+    "totalAssets": 52987314229,
+    "marketingBudget": 1254926
   },
   {
     "name": "SCHOOLSFIRST FEDERAL CREDIT UNION",
     "id": "usa_937898",
-    "totalAssets": 31926537828
+    "totalAssets": 31926537828,
+    "marketingBudget": 9908867
   },
   {
     "name": "PENTAGON FEDERAL CREDIT UNION",
     "id": "usa_546571",
-    "totalAssets": 31010251746
+    "totalAssets": 31010251746,
+    "marketingBudget": 36103653
   },
   {
     "name": "BOEING EMPLOYEES CREDIT UNION",
     "id": "usa_972590",
-    "totalAssets": 29352686763
+    "totalAssets": 29352686763,
+    "marketingBudget": 26617983
   },
   {
     "name": "AMERICA FIRST FEDERAL CREDIT UNION",
     "id": "usa_277697",
-    "totalAssets": 21737352420
+    "totalAssets": 21737352420,
+    "marketingBudget": 29319386
   },
   {
     "name": "MOUNTAIN AMERICA FEDERAL CREDIT UNION",
     "id": "usa_611198",
-    "totalAssets": 20205566939
+    "totalAssets": 20205566939,
+    "marketingBudget": 16134605
   },
   {
     "name": "THE GOLDEN 1 CREDIT UNION",
     "id": "usa_959395",
-    "totalAssets": 19609426722
+    "totalAssets": 19609426722,
+    "marketingBudget": 16803255
   },
   {
     "name": "ALLIANT CREDIT UNION",
     "id": "usa_367392",
-    "totalAssets": 19539151844
+    "totalAssets": 19539151844,
+    "marketingBudget": 11423303
   },
   {
     "name": "RANDOLPH-BROOKS FEDERAL CREDIT UNION",
     "id": "usa_491381",
-    "totalAssets": 17955211987
+    "totalAssets": 17955211987,
+    "marketingBudget": 8818172
   },
   {
     "name": "SUNCOAST CREDIT UNION",
     "id": "usa_25085",
-    "totalAssets": 17839722691
+    "totalAssets": 17839722691,
+    "marketingBudget": 8861292
   },
   {
     "name": "FIRST TECHNOLOGY FEDERAL CREDIT UNION",
     "id": "usa_709787",
-    "totalAssets": 17373578853
+    "totalAssets": 17373578853,
+    "marketingBudget": 10168212
   },
   {
     "name": "LAKE MICHIGAN CREDIT UNION",
     "id": "usa_651596",
-    "totalAssets": 14527369395
+    "totalAssets": 14527369395,
+    "marketingBudget": 6713396
   },
   {
     "name": "VYSTAR CREDIT UNION",
     "id": "usa_99189",
-    "totalAssets": 13974902170
+    "totalAssets": 13974902170,
+    "marketingBudget": 14259265
   },
   {
     "name": "SECURITY SERVICE FEDERAL CREDIT UNION",
     "id": "usa_666581",
-    "totalAssets": 13710095590
+    "totalAssets": 13710095590,
+    "marketingBudget": 6047611
   },
   {
     "name": "BETHPAGE FEDERAL CREDIT UNION",
     "id": "usa_136374",
-    "totalAssets": 13371669759
+    "totalAssets": 13371669759,
+    "marketingBudget": 17687487
   },
   {
     "name": "DIGITAL FEDERAL CREDIT UNION",
     "id": "usa_483386",
-    "totalAssets": 12642183330
+    "totalAssets": 12642183330,
+    "marketingBudget": 7853026
   },
   {
     "name": "IDAHO CENTRAL CREDIT UNION",
     "id": "usa_322793",
-    "totalAssets": 12120188554
+    "totalAssets": 12120188554,
+    "marketingBudget": 17770530
   },
   {
     "name": "GLOBAL FEDERAL CREDIT UNION",
     "id": "usa_366573",
-    "totalAssets": 11481948321
+    "totalAssets": 11481948321,
+    "marketingBudget": 8364018
   },
   {
     "name": "GREENSTATE CREDIT UNION",
     "id": "usa_225698",
-    "totalAssets": 10640946533
+    "totalAssets": 10640946533,
+    "marketingBudget": 7235176
   },
   {
     "name": "TEACHERS FEDERAL CREDIT UNION",
     "id": "usa_491783",
-    "totalAssets": 9864017485
+    "totalAssets": 9864017485,
+    "marketingBudget": 4105300
   },
   {
     "name": "ENT CREDIT UNION",
     "id": "usa_660589",
-    "totalAssets": 9839179336
+    "totalAssets": 9839179336,
+    "marketingBudget": 15626302
   },
   {
     "name": "LOGIX FEDERAL CREDIT UNION",
     "id": "usa_284378",
-    "totalAssets": 9726331677
+    "totalAssets": 9726331677,
+    "marketingBudget": 2314304
   },
   {
     "name": "UNITED NATIONS FEDERAL CREDIT UNION",
     "id": "usa_752475",
-    "totalAssets": 9718998097
+    "totalAssets": 9718998097,
+    "marketingBudget": 572460
   },
   {
     "name": "ONPOINT COMMUNITY CREDIT UNION",
     "id": "usa_852393",
-    "totalAssets": 9711312299
+    "totalAssets": 9711312299,
+    "marketingBudget": 11959665
   },
   {
     "name": "ESL FEDERAL CREDIT UNION",
     "id": "usa_243179",
-    "totalAssets": 9513673428
+    "totalAssets": 9513673428,
+    "marketingBudget": 27372589
   },
   {
     "name": "POLICE & FIRE FEDERAL CREDIT UNION",
     "id": "usa_945978",
-    "totalAssets": 9485083975
+    "totalAssets": 9485083975,
+    "marketingBudget": 2060279
   },
   {
     "name": "STAR ONE CREDIT UNION",
     "id": "usa_472988",
-    "totalAssets": 9454397611
+    "totalAssets": 9454397611,
+    "marketingBudget": 3119766
   },
   {
     "name": "PATELCO CREDIT UNION",
     "id": "usa_461496",
-    "totalAssets": 9414389310
+    "totalAssets": 9414389310,
+    "marketingBudget": 4891438
   },
   {
     "name": "WINGS FINANCIAL CREDIT UNION",
     "id": "usa_290490",
-    "totalAssets": 9371410072
+    "totalAssets": 9371410072,
+    "marketingBudget": 2302332
   },
   {
     "name": "SAN DIEGO COUNTY CREDIT UNION",
     "id": "usa_301190",
-    "totalAssets": 9165817993
+    "totalAssets": 9165817993,
+    "marketingBudget": 4802050
   },
   {
     "name": "REDWOOD CREDIT UNION",
     "id": "usa_238791",
-    "totalAssets": 9109020593
+    "totalAssets": 9109020593,
+    "marketingBudget": 5632171
   },
   {
     "name": "EASTMAN CREDIT UNION",
     "id": "usa_263391",
-    "totalAssets": 9097283047
+    "totalAssets": 9097283047,
+    "marketingBudget": 3125801
   },
   {
     "name": "AMERICAN AIRLINES FEDERAL CREDIT UNION",
     "id": "usa_49090",
-    "totalAssets": 9068237783
+    "totalAssets": 9068237783,
+    "marketingBudget": 5574404
   },
   {
     "name": "WRIGHT-PATT CREDIT UNION, INC.",
     "id": "usa_368492",
-    "totalAssets": 9066362338
+    "totalAssets": 9066362338,
+    "marketingBudget": 4568515
   },
   {
     "name": "SPACE COAST CREDIT UNION",
     "id": "usa_26998",
-    "totalAssets": 8804691162
+    "totalAssets": 8804691162,
+    "marketingBudget": 7259125
   },
   {
     "name": "DESERT FINANCIAL CREDIT UNION",
     "id": "usa_622475",
-    "totalAssets": 8783664703
+    "totalAssets": 8783664703,
+    "marketingBudget": 16998567
   },
   {
     "name": "PENNSYLVANIA STATE EMPLOYEES CREDIT UNION",
     "id": "usa_268592",
-    "totalAssets": 8721275843
+    "totalAssets": 8721275843,
+    "marketingBudget": 8521641
   },
   {
     "name": "BROADVIEW FEDERAL CREDIT UNION",
     "id": "usa_954970",
-    "totalAssets": 8677331461
+    "totalAssets": 8677331461,
+    "marketingBudget": 3885457
   },
   {
     "name": "DELTA COMMUNITY CREDIT UNION",
     "id": "usa_112499",
-    "totalAssets": 8652742905
+    "totalAssets": 8652742905,
+    "marketingBudget": 6947614
   },
   {
     "name": "BELLCO CREDIT UNION",
     "id": "usa_283698",
-    "totalAssets": 8591833460
+    "totalAssets": 8591833460,
+    "marketingBudget": 5265035
   },
   {
     "name": "MIDFLORIDA CREDIT UNION",
     "id": "usa_101381",
-    "totalAssets": 8141992045
+    "totalAssets": 8141992045,
+    "marketingBudget": 14696665
   },
   {
     "name": "MICHIGAN STATE UNIVERSITY FEDERAL CREDIT UNION",
     "id": "usa_601489",
-    "totalAssets": 8052688965
+    "totalAssets": 8052688965,
+    "marketingBudget": 7519539
   },
   {
     "name": "MEMBERS 1ST FEDERAL CREDIT UNION",
     "id": "usa_934785",
-    "totalAssets": 8050941641
+    "totalAssets": 8050941641,
+    "marketingBudget": 4330934
   },
   {
     "name": "VERIDIAN CREDIT UNION",
     "id": "usa_416197",
-    "totalAssets": 7960128611
+    "totalAssets": 7960128611,
+    "marketingBudget": 3947591
   },
   {
     "name": "CITIZENS EQUITY FIRST CREDIT UNION",
     "id": "usa_606792",
-    "totalAssets": 7911421110
+    "totalAssets": 7911421110,
+    "marketingBudget": 8033452
   },
   {
     "name": "REDSTONE FEDERAL CREDIT UNION",
     "id": "usa_308489",
-    "totalAssets": 7890187484
+    "totalAssets": 7890187484,
+    "marketingBudget": 2695414
   },
   {
     "name": "SUMMIT CREDIT UNION",
     "id": "usa_734499",
-    "totalAssets": 7458311100
+    "totalAssets": 7458311100,
+    "marketingBudget": 6923495
   },
   {
     "name": "HUDSON VALLEY CREDIT UNION",
     "id": "usa_483180",
-    "totalAssets": 7450729291
+    "totalAssets": 7450729291,
+    "marketingBudget": 3413929
   },
   {
     "name": "VIRGINIA FEDERAL CREDIT UNION",
     "id": "usa_807795",
-    "totalAssets": 6851034010
+    "totalAssets": 6851034010,
+    "marketingBudget": 7753551
   },
   {
     "name": "LANDMARK CREDIT UNION",
     "id": "usa_572495",
-    "totalAssets": 6770014749
+    "totalAssets": 6770014749,
+    "marketingBudget": 3847676
   },
   {
     "name": "DFCU FINANCIAL CREDIT UNION",
     "id": "usa_29980",
-    "totalAssets": 6661977812
+    "totalAssets": 6661977812,
+    "marketingBudget": 2107853
   },
   {
     "name": "KINECTA FEDERAL CREDIT UNION",
     "id": "usa_277473",
-    "totalAssets": 6656773721
+    "totalAssets": 6656773721,
+    "marketingBudget": 3753011
   },
   {
     "name": "MISSION FEDERAL CREDIT UNION",
     "id": "usa_133186",
-    "totalAssets": 6609922649
+    "totalAssets": 6609922649,
+    "marketingBudget": 5039972
   },
   {
     "name": "BANK FUND STAFF FEDERAL CREDIT UNION",
     "id": "usa_561471",
-    "totalAssets": 6529027895
+    "totalAssets": 6529027895,
+    "marketingBudget": 500258
   },
   {
     "name": "WESCOM CENTRAL CREDIT UNION",
     "id": "usa_344692",
-    "totalAssets": 6276758433
+    "totalAssets": 6276758433,
+    "marketingBudget": 8027166
   },
   {
     "name": "CITADEL FEDERAL CREDIT UNION",
     "id": "usa_167873",
-    "totalAssets": 6161955853
+    "totalAssets": 6161955853,
+    "marketingBudget": 4160751
   },
   {
     "name": "COMMUNITY FIRST CREDIT UNION",
     "id": "usa_813394",
-    "totalAssets": 6031707524
+    "totalAssets": 6031707524,
+    "marketingBudget": 3871059
   },
   {
     "name": "TINKER FEDERAL CREDIT UNION",
     "id": "usa_220590",
-    "totalAssets": 6029604056
+    "totalAssets": 6029604056,
+    "marketingBudget": 4919520
   },
   {
     "name": "BAXTER CREDIT UNION",
     "id": "usa_858975",
-    "totalAssets": 6018343455
+    "totalAssets": 6018343455,
+    "marketingBudget": 3637058
   },
   {
     "name": "SPOKANE TEACHERS CREDIT UNION",
     "id": "usa_678892",
-    "totalAssets": 5851118982
+    "totalAssets": 5851118982,
+    "marketingBudget": 5044888
   },
   {
     "name": "SERVICE FEDERAL CREDIT UNION",
     "id": "usa_839581",
-    "totalAssets": 5801474858
+    "totalAssets": 5801474858,
+    "marketingBudget": 6653212
   },
   {
     "name": "UNIVERSITY OF WISCONSIN CREDIT UNION",
     "id": "usa_789097",
-    "totalAssets": 5653143608
+    "totalAssets": 5653143608,
+    "marketingBudget": 9860805
   },
   {
     "name": "GESA CREDIT UNION",
     "id": "usa_389086",
-    "totalAssets": 5629623350
+    "totalAssets": 5629623350,
+    "marketingBudget": 9053590
   },
   {
     "name": "NASA FEDERAL CREDIT UNION",
     "id": "usa_910181",
-    "totalAssets": 5517515772
+    "totalAssets": 5517515772,
+    "marketingBudget": 1445452
   },
   {
     "name": "COASTAL FEDERAL CREDIT UNION",
     "id": "usa_398583",
-    "totalAssets": 5507014519
+    "totalAssets": 5507014519,
+    "marketingBudget": 2733647
   },
   {
     "name": "STATE EMPLOYEES CU OF MARYLAND, INC CREDIT UNION",
     "id": "usa_218597",
-    "totalAssets": 5471102557
+    "totalAssets": 5471102557,
+    "marketingBudget": 4530946
   },
   {
     "name": "TRUSTONE FINANCIAL CREDIT UNION",
     "id": "usa_427399",
-    "totalAssets": 5423588090
+    "totalAssets": 5423588090,
+    "marketingBudget": 3562104
   },
   {
     "name": "LANGLEY FEDERAL CREDIT UNION",
     "id": "usa_722674",
-    "totalAssets": 5401124888
+    "totalAssets": 5401124888,
+    "marketingBudget": 8916464
   },
   {
     "name": "ROYAL CREDIT UNION",
     "id": "usa_961295",
-    "totalAssets": 5329096009
+    "totalAssets": 5329096009,
+    "marketingBudget": 5738605
   },
   {
     "name": "GENISYS CREDIT UNION",
     "id": "usa_1758821",
-    "totalAssets": 5305851643
+    "totalAssets": 5305851643,
+    "marketingBudget": 3175321
   },
   {
     "name": "TRAVIS CREDIT UNION",
     "id": "usa_212586",
-    "totalAssets": 5253880860
+    "totalAssets": 5253880860,
+    "marketingBudget": 3842648
   },
   {
     "name": "EVERWISE CREDIT UNION",
     "id": "usa_275590",
-    "totalAssets": 5249872203
+    "totalAssets": 5249872203,
+    "marketingBudget": 5195431
   },
   {
     "name": "VISIONS FEDERAL CREDIT UNION",
     "id": "usa_562786",
-    "totalAssets": 5226377683
+    "totalAssets": 5226377683,
+    "marketingBudget": 4206263
   },
   {
     "name": "TRULIANT FEDERAL CREDIT UNION",
     "id": "usa_446185",
-    "totalAssets": 5215106326
+    "totalAssets": 5215106326,
+    "marketingBudget": 5874333
   },
   {
     "name": "WASHINGTON STATE EMPLOYEES CREDIT UNION",
     "id": "usa_608198",
-    "totalAssets": 5165066322
+    "totalAssets": 5165066322,
+    "marketingBudget": 4286513
   },
   {
     "name": "COMMUNITYAMERICA CREDIT UNION",
     "id": "usa_524494",
-    "totalAssets": 5079185569
+    "totalAssets": 5079185569,
+    "marketingBudget": 16142810
   },
   {
     "name": "AMERICAN HERITAGE FEDERAL CREDIT UNION",
     "id": "usa_801878",
-    "totalAssets": 5059207723
+    "totalAssets": 5059207723,
+    "marketingBudget": 4801521
   },
   {
     "name": "CALIFORNIA CREDIT UNION",
     "id": "usa_234597",
-    "totalAssets": 5046381674
+    "totalAssets": 5046381674,
+    "marketingBudget": 5500906
   },
   {
     "name": "CHEVRON FEDERAL CREDIT UNION",
     "id": "usa_414894",
-    "totalAssets": 4907392740
+    "totalAssets": 4907392740,
+    "marketingBudget": 600557
   },
   {
     "name": "TEXAS DOW EMPLOYEES CREDIT UNION",
     "id": "usa_434593",
-    "totalAssets": 4773473411
+    "totalAssets": 4773473411,
+    "marketingBudget": 9251477
   },
   {
     "name": "TECHNOLOGY CREDIT UNION",
     "id": "usa_171889",
-    "totalAssets": 4768851734
+    "totalAssets": 4768851734,
+    "marketingBudget": 3289127
   },
   {
     "name": "FOUNDERS FEDERAL CREDIT UNION",
     "id": "usa_549291",
-    "totalAssets": 4763530127
+    "totalAssets": 4763530127,
+    "marketingBudget": 8741190
   },
   {
     "name": "FAIRWINDS CREDIT UNION",
     "id": "usa_414371",
-    "totalAssets": 4725516706
+    "totalAssets": 4725516706,
+    "marketingBudget": 4396987
   },
   {
     "name": "EDUCATIONAL EMPLOYEES CREDIT UNION",
     "id": "usa_504898",
-    "totalAssets": 4711208088
+    "totalAssets": 4711208088,
+    "marketingBudget": 4761568
   },
   {
     "name": "NUSENDA FEDERAL CREDIT UNION",
     "id": "usa_763976",
-    "totalAssets": 4679346450
+    "totalAssets": 4679346450,
+    "marketingBudget": 7462672
   },
   {
     "name": "KNOXVILLE TVA EMPLOYEES CREDIT UNION",
     "id": "usa_456492",
-    "totalAssets": 4620066214
+    "totalAssets": 4620066214,
+    "marketingBudget": 2341600
   },
   {
     "name": "APPLE FEDERAL CREDIT UNION",
     "id": "usa_625289",
-    "totalAssets": 4619212792
+    "totalAssets": 4619212792,
+    "marketingBudget": 1738004
   },
   {
     "name": "ROBINS FINANCIAL CREDIT UNION",
     "id": "usa_410784",
-    "totalAssets": 4587561437
+    "totalAssets": 4587561437,
+    "marketingBudget": 1982495
   },
   {
     "name": "CANVAS CREDIT UNION",
     "id": "usa_863399",
-    "totalAssets": 4585707238
+    "totalAssets": 4585707238,
+    "marketingBudget": 8137702
   },
   {
     "name": "TOWER FEDERAL CREDIT UNION",
     "id": "usa_498586",
-    "totalAssets": 4544433656
+    "totalAssets": 4544433656,
+    "marketingBudget": 606232
   },
   {
     "name": "JOVIA FINANCIAL FEDERAL CREDIT UNION",
     "id": "usa_823674",
-    "totalAssets": 4535809116
+    "totalAssets": 4535809116,
+    "marketingBudget": 7910477
   },
   {
     "name": "FIRST COMMUNITY CREDIT UNION",
     "id": "usa_674997",
-    "totalAssets": 4517141449
+    "totalAssets": 4517141449,
+    "marketingBudget": 5462754
   },
   {
     "name": "RALLY CREDIT UNION",
     "id": "usa_930189",
-    "totalAssets": 4502405665
+    "totalAssets": 4502405665,
+    "marketingBudget": 3637920
   },
   {
     "name": "MUNICIPAL CREDIT UNION",
     "id": "usa_210797",
-    "totalAssets": 4485844234
+    "totalAssets": 4485844234,
+    "marketingBudget": 1274600
   },
   {
     "name": "STATE FARM FEDERAL CREDIT UNION",
     "id": "usa_231176",
-    "totalAssets": 4435870489
+    "totalAssets": 4435870489,
+    "marketingBudget": 1540
   },
   {
     "name": "GENERAL ELECTRIC CREDIT UNION",
     "id": "usa_23287",
-    "totalAssets": 4431414011
+    "totalAssets": 4431414011,
+    "marketingBudget": 1892724
   },
   {
     "name": "ASCEND FEDERAL CREDIT UNION",
     "id": "usa_290986",
-    "totalAssets": 4412185885
+    "totalAssets": 4412185885,
+    "marketingBudget": 4374222
   },
   {
     "name": "CREDIT HUMAN FEDERAL CREDIT UNION",
     "id": "usa_460592",
-    "totalAssets": 4349525938
+    "totalAssets": 4349525938,
+    "marketingBudget": 4803751
   },
   {
     "name": "GECU FEDERAL CREDIT UNION",
     "id": "usa_364690",
-    "totalAssets": 4341283941
+    "totalAssets": 4341283941,
+    "marketingBudget": 6178558
   }
 ]
