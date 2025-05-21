@@ -159,13 +159,21 @@ async function updateDataFile() {
     for (const bank of banks) {
       bank.totalAssets = await fetchTotalAssets(bank.id);
       bank.marketingBudget = await fetchMarketingBudget(bank.id);
-      bank.memberCount = await fetchMemberCount(bank.id);
+
+      const memberCount = await fetchMemberCount(bank.id);
+      const memberCountYTD = await fetchMemberCountYTD(bank.id);
+
+      if (memberCount !== null && memberCountYTD !== null) {
+        bank.memberChange = memberCountYTD - memberCount;
+      } else {
+        bank.memberChange = null;
+      }
+
       bank.potentialMemberCount = await fetchPotentialMemberCount(bank.id);
-      bank.memberCountYTD = await fetchMemberCountYTD(bank.id);
     }
 
     fs.writeFileSync('data.json', JSON.stringify(banks, null, 2));
-    console.log('Data with total assets and marketing budget saved to data.json!');
+    console.log('Data with total assets and member change saved to data.json!');
   } catch (err) {
     console.error('Error during scraping:', err);
   }
