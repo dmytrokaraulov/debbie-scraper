@@ -4,1099 +4,1399 @@
     "id": "usa_617677",
     "totalAssets": 180806457305,
     "marketingBudget": 144721573,
+    "potentialMemberCount": 184000000,
     "memberChange": 220991,
     "mac": "$654.88",
     "assetsPerMemberStart": "$12,873.20",
     "assetsPerMemberEnd": "$12,674.25",
-    "costPerDollarOfAssets": "$22.02"
+    "depositPerMember": "$10,643.09",
+    "costPerDollarOfAssets": "$22.02",
+    "percentPenetration": "8%"
   },
   {
     "name": "STATE EMPLOYEES' CREDIT UNION",
     "id": "usa_1189117",
     "totalAssets": 57229286839,
     "marketingBudget": 1254926,
+    "potentialMemberCount": 2847944,
     "memberChange": -1773,
     "mac": "Losing members",
     "assetsPerMemberStart": "$20,094.96",
     "assetsPerMemberEnd": "$18,617.06",
-    "costPerDollarOfAssets": "Negative ROA"
+    "depositPerMember": "$16,660.88",
+    "costPerDollarOfAssets": "Negative ROA",
+    "percentPenetration": "100%"
   },
   {
     "name": "SCHOOLSFIRST FEDERAL CREDIT UNION",
     "id": "usa_937898",
     "totalAssets": 31084507740,
     "marketingBudget": 9908867,
+    "potentialMemberCount": 4133332,
     "memberChange": 21358,
     "mac": "$463.94",
     "assetsPerMemberStart": "$21,652.70",
     "assetsPerMemberEnd": "$21,913.22",
-    "costPerDollarOfAssets": "$0.01"
+    "depositPerMember": "$18,414.02",
+    "costPerDollarOfAssets": "$0.01",
+    "percentPenetration": "35%"
   },
   {
     "name": "PENTAGON FEDERAL CREDIT UNION",
     "id": "usa_546571",
     "totalAssets": 32713549837,
     "marketingBudget": 36103653,
+    "potentialMemberCount": 337194721,
     "memberChange": -4368,
     "mac": "Losing members",
     "assetsPerMemberStart": "$11,527.90",
     "assetsPerMemberEnd": "$10,944.53",
-    "costPerDollarOfAssets": "Negative ROA"
+    "depositPerMember": "$9,547.71",
+    "costPerDollarOfAssets": "Negative ROA",
+    "percentPenetration": "1%"
   },
   {
     "name": "BOEING EMPLOYEES CREDIT UNION",
     "id": "usa_972590",
     "totalAssets": 29684318195,
     "marketingBudget": 26617983,
+    "potentialMemberCount": 12071139,
     "memberChange": 15649,
     "mac": "$1,700.94",
     "assetsPerMemberStart": "$19,801.11",
     "assetsPerMemberEnd": "$19,377.61",
-    "costPerDollarOfAssets": "Negative ROA"
+    "depositPerMember": "$16,579.04",
+    "costPerDollarOfAssets": "Negative ROA",
+    "percentPenetration": "13%"
   },
   {
     "name": "AMERICA FIRST FEDERAL CREDIT UNION",
     "id": "usa_277697",
     "totalAssets": 21352783826,
     "marketingBudget": 29319386,
+    "potentialMemberCount": 14282297,
     "memberChange": 18840,
     "mac": "$1,556.23",
     "assetsPerMemberStart": "$14,523.24",
     "assetsPerMemberEnd": "$14,597.75",
-    "costPerDollarOfAssets": "$0.08"
+    "depositPerMember": "$12,844.86",
+    "costPerDollarOfAssets": "$0.08",
+    "percentPenetration": "10%"
   },
   {
     "name": "MOUNTAIN AMERICA FEDERAL CREDIT UNION",
     "id": "usa_611198",
     "totalAssets": 20276595321,
     "marketingBudget": 16134605,
+    "potentialMemberCount": 15496431,
     "memberChange": 27143,
     "mac": "$594.43",
     "assetsPerMemberStart": "$15,648.55",
     "assetsPerMemberEnd": "$15,273.78",
-    "costPerDollarOfAssets": "Negative ROA"
+    "depositPerMember": "$13,516.57",
+    "costPerDollarOfAssets": "Negative ROA",
+    "percentPenetration": "9%"
   },
   {
     "name": "THE GOLDEN 1 CREDIT UNION",
     "id": "usa_959395",
     "totalAssets": 19582379014,
     "marketingBudget": 16803255,
+    "potentialMemberCount": 39100000,
     "memberChange": 8937,
     "mac": "$1,880.19",
     "assetsPerMemberStart": "$17,292.20",
     "assetsPerMemberEnd": "$17,180.50",
-    "costPerDollarOfAssets": "$0.62"
+    "depositPerMember": "$15,484.86",
+    "costPerDollarOfAssets": "$0.62",
+    "percentPenetration": "3%"
   },
   {
     "name": "ALLIANT CREDIT UNION",
     "id": "usa_367392",
     "totalAssets": 20336453555,
     "marketingBudget": 11423303,
+    "potentialMemberCount": 1689139,
     "memberChange": 11570,
     "mac": "$987.32",
     "assetsPerMemberStart": "$22,863.18",
     "assetsPerMemberEnd": "$21,684.75",
-    "costPerDollarOfAssets": "Negative ROA"
+    "depositPerMember": "$17,795.95",
+    "costPerDollarOfAssets": "Negative ROA",
+    "percentPenetration": "53%"
   },
   {
     "name": "RANDOLPH-BROOKS FEDERAL CREDIT UNION",
     "id": "usa_491381",
     "totalAssets": 17549897730,
     "marketingBudget": 8818172,
+    "potentialMemberCount": 4329446,
     "memberChange": 14612,
     "mac": "$603.49",
     "assetsPerMemberStart": "$15,144.01",
     "assetsPerMemberEnd": "$15,300.84",
-    "costPerDollarOfAssets": "$0.02"
+    "depositPerMember": "$12,195.18",
+    "costPerDollarOfAssets": "$0.02",
+    "percentPenetration": "27%"
   },
   {
     "name": "SUNCOAST CREDIT UNION",
     "id": "usa_25085",
     "totalAssets": 18435942553,
     "marketingBudget": 8861292,
+    "potentialMemberCount": 20862388,
     "memberChange": 24081,
     "mac": "$367.98",
     "assetsPerMemberStart": "$14,773.06",
     "assetsPerMemberEnd": "$14,024.67",
-    "costPerDollarOfAssets": "Negative ROA"
+    "depositPerMember": "$12,425.19",
+    "costPerDollarOfAssets": "Negative ROA",
+    "percentPenetration": "6%"
   },
   {
     "name": "FIRST TECHNOLOGY FEDERAL CREDIT UNION",
     "id": "usa_709787",
     "totalAssets": 17509005851,
     "marketingBudget": 10168212,
+    "potentialMemberCount": 8544886,
     "memberChange": -12389,
     "mac": "Losing members",
     "assetsPerMemberStart": "$24,715.08",
     "assetsPerMemberEnd": "$24,960.42",
-    "costPerDollarOfAssets": "Negative ROA"
+    "depositPerMember": "$18,520.65",
+    "costPerDollarOfAssets": "Negative ROA",
+    "percentPenetration": "8%"
   },
   {
     "name": "LAKE MICHIGAN CREDIT UNION",
     "id": "usa_651596",
     "totalAssets": 14380227851,
     "marketingBudget": 6713396,
+    "potentialMemberCount": 33048664,
     "memberChange": 2224,
     "mac": "$3,018.61",
     "assetsPerMemberStart": "$28,944.54",
     "assetsPerMemberEnd": "$29,110.40",
-    "costPerDollarOfAssets": "$0.05"
+    "depositPerMember": "$24,752.59",
+    "costPerDollarOfAssets": "$0.05",
+    "percentPenetration": "2%"
   },
   {
     "name": "VYSTAR CREDIT UNION",
     "id": "usa_99189",
     "totalAssets": 14746180513,
     "marketingBudget": 14259265,
+    "potentialMemberCount": 19086264,
     "memberChange": 9264,
     "mac": "$1,539.21",
     "assetsPerMemberStart": "$14,783.60",
     "assetsPerMemberEnd": "$13,881.44",
-    "costPerDollarOfAssets": "Negative ROA"
+    "depositPerMember": "$10,626.83",
+    "costPerDollarOfAssets": "Negative ROA",
+    "percentPenetration": "5%"
   },
   {
     "name": "SECURITY SERVICE FEDERAL CREDIT UNION",
     "id": "usa_666581",
     "totalAssets": 13646807251,
     "marketingBudget": 6047611,
+    "potentialMemberCount": 5596045,
     "memberChange": -10572,
     "mac": "Losing members",
     "assetsPerMemberStart": "$17,952.83",
     "assetsPerMemberEnd": "$18,290.47",
-    "costPerDollarOfAssets": "$0.10"
+    "depositPerMember": "$13,907.07",
+    "costPerDollarOfAssets": "$0.10",
+    "percentPenetration": "13%"
   },
   {
     "name": "BETHPAGE FEDERAL CREDIT UNION",
     "id": "usa_136374",
     "totalAssets": 13309612562,
     "marketingBudget": 17687487,
+    "potentialMemberCount": 337194721,
     "memberChange": 735,
     "mac": "$24,064.61",
     "assetsPerMemberStart": "$27,504.71",
     "assetsPerMemberEnd": "$27,591.05",
-    "costPerDollarOfAssets": "$0.29"
+    "depositPerMember": "$23,963.55",
+    "costPerDollarOfAssets": "$0.29",
+    "percentPenetration": "0%"
   },
   {
     "name": "DIGITAL FEDERAL CREDIT UNION",
     "id": "usa_483386",
     "totalAssets": 12123497336,
     "marketingBudget": 7853026,
+    "potentialMemberCount": 4000000,
     "memberChange": -1222,
     "mac": "Losing members",
     "assetsPerMemberStart": "$10,501.95",
     "assetsPerMemberEnd": "$10,962.87",
-    "costPerDollarOfAssets": "$0.02"
+    "depositPerMember": "$9,531.31",
+    "costPerDollarOfAssets": "$0.02",
+    "percentPenetration": "29%"
   },
   {
     "name": "IDAHO CENTRAL CREDIT UNION",
     "id": "usa_322793",
     "totalAssets": 11696566096,
     "marketingBudget": 17770530,
+    "potentialMemberCount": 886000,
     "memberChange": 15150,
     "mac": "$1,172.97",
     "assetsPerMemberStart": "$17,815.49",
     "assetsPerMemberEnd": "$18,044.35",
-    "costPerDollarOfAssets": "$0.04"
+    "depositPerMember": "$15,604.82",
+    "costPerDollarOfAssets": "$0.04",
+    "percentPenetration": "76%"
   },
   {
     "name": "GLOBAL FEDERAL CREDIT UNION",
     "id": "usa_366573",
     "totalAssets": 11460496338,
     "marketingBudget": 8364018,
+    "potentialMemberCount": 20157252,
     "memberChange": 1762,
     "mac": "$4,746.89",
     "assetsPerMemberStart": "$14,937.48",
     "assetsPerMemberEnd": "$14,931.15",
-    "costPerDollarOfAssets": "$0.39"
+    "depositPerMember": "$12,970.78",
+    "costPerDollarOfAssets": "$0.39",
+    "percentPenetration": "4%"
   },
   {
     "name": "GREENSTATE CREDIT UNION",
     "id": "usa_225698",
     "totalAssets": 10659297817,
     "marketingBudget": 7235176,
+    "potentialMemberCount": 5790000,
     "memberChange": -4766,
     "mac": "Losing members",
     "assetsPerMemberStart": "$23,381.19",
     "assetsPerMemberEnd": "$23,587.53",
-    "costPerDollarOfAssets": "Negative ROA"
+    "depositPerMember": "$18,989.00",
+    "costPerDollarOfAssets": "Negative ROA",
+    "percentPenetration": "8%"
   },
   {
     "name": "TEACHERS FEDERAL CREDIT UNION",
     "id": "usa_491783",
     "totalAssets": 9817494290,
     "marketingBudget": 4105300,
+    "potentialMemberCount": 345426571,
     "memberChange": -8710,
     "mac": "Losing members",
     "assetsPerMemberStart": "$20,598.68",
     "assetsPerMemberEnd": "$21,081.56",
-    "costPerDollarOfAssets": "$0.09"
+    "depositPerMember": "$17,569.45",
+    "costPerDollarOfAssets": "$0.09",
+    "percentPenetration": "0%"
   },
   {
     "name": "ENT CREDIT UNION",
     "id": "usa_660589",
     "totalAssets": 9941532333,
     "marketingBudget": 15626302,
+    "potentialMemberCount": 5088549,
     "memberChange": 5478,
     "mac": "$2,852.56",
     "assetsPerMemberStart": "$18,033.77",
     "assetsPerMemberEnd": "$17,672.50",
-    "costPerDollarOfAssets": "Negative ROA"
+    "depositPerMember": "$15,378.48",
+    "costPerDollarOfAssets": "Negative ROA",
+    "percentPenetration": "11%"
   },
   {
     "name": "LOGIX FEDERAL CREDIT UNION",
     "id": "usa_284378",
     "totalAssets": 9904163133,
     "marketingBudget": 2314304,
+    "potentialMemberCount": 949397,
     "memberChange": 984,
     "mac": "$2,351.93",
     "assetsPerMemberStart": "$39,375.83",
     "assetsPerMemberEnd": "$38,518.14",
-    "costPerDollarOfAssets": "Negative ROA"
+    "depositPerMember": "$30,886.68",
+    "costPerDollarOfAssets": "Negative ROA",
+    "percentPenetration": "27%"
   },
   {
     "name": "UNITED NATIONS FEDERAL CREDIT UNION",
     "id": "usa_752475",
     "totalAssets": 9570630332,
     "marketingBudget": 572460,
+    "potentialMemberCount": 634248,
     "memberChange": 2289,
     "mac": "$250.09",
     "assetsPerMemberStart": "$38,954.25",
     "assetsPerMemberEnd": "$39,192.99",
-    "costPerDollarOfAssets": "$0.00"
+    "depositPerMember": "$35,654.17",
+    "costPerDollarOfAssets": "$0.00",
+    "percentPenetration": "39%"
   },
   {
     "name": "ONPOINT COMMUNITY CREDIT UNION",
     "id": "usa_852393",
     "totalAssets": 9679670581,
     "marketingBudget": 11959665,
+    "potentialMemberCount": 4581573,
     "memberChange": 9353,
     "mac": "$1,278.70",
     "assetsPerMemberStart": "$16,541.70",
     "assetsPerMemberEnd": "$16,334.68",
-    "costPerDollarOfAssets": "$0.38"
+    "depositPerMember": "$13,911.21",
+    "costPerDollarOfAssets": "$0.38",
+    "percentPenetration": "13%"
   },
   {
     "name": "ESL FEDERAL CREDIT UNION",
     "id": "usa_243179",
     "totalAssets": 9589555760,
     "marketingBudget": 27372589,
+    "potentialMemberCount": 1499739,
     "memberChange": 2576,
     "mac": "$10,626.01",
     "assetsPerMemberStart": "$21,279.76",
     "assetsPerMemberEnd": "$20,991.38",
-    "costPerDollarOfAssets": "Negative ROA"
+    "depositPerMember": "$12,667.60",
+    "costPerDollarOfAssets": "Negative ROA",
+    "percentPenetration": "30%"
   },
   {
     "name": "POLICE & FIRE FEDERAL CREDIT UNION",
     "id": "usa_945978",
     "totalAssets": 9288570758,
     "marketingBudget": 2060279,
+    "potentialMemberCount": 600000,
     "memberChange": 2802,
     "mac": "$735.29",
     "assetsPerMemberStart": "$20,563.95",
     "assetsPerMemberEnd": "$20,869.55",
-    "costPerDollarOfAssets": "$0.01"
+    "depositPerMember": "$17,184.31",
+    "costPerDollarOfAssets": "$0.01",
+    "percentPenetration": "76%"
   },
   {
     "name": "STAR ONE CREDIT UNION",
     "id": "usa_472988",
     "totalAssets": 9754304816,
     "marketingBudget": 3119766,
+    "potentialMemberCount": 6630893,
     "memberChange": 920,
     "mac": "$3,391.05",
     "assetsPerMemberStart": "$76,107.40",
     "assetsPerMemberEnd": "$73,241.64",
-    "costPerDollarOfAssets": "Negative ROA"
+    "depositPerMember": "$56,875.33",
+    "costPerDollarOfAssets": "Negative ROA",
+    "percentPenetration": "2%"
   },
   {
     "name": "PATELCO CREDIT UNION",
     "id": "usa_461496",
     "totalAssets": 9525458343,
     "marketingBudget": 4891438,
+    "potentialMemberCount": 12091540,
     "memberChange": -8136,
     "mac": "Losing members",
     "assetsPerMemberStart": "$18,790.85",
     "assetsPerMemberEnd": "$18,874.68",
-    "costPerDollarOfAssets": "Negative ROA"
+    "depositPerMember": "$15,851.87",
+    "costPerDollarOfAssets": "Negative ROA",
+    "percentPenetration": "4%"
   },
   {
     "name": "WINGS FINANCIAL CREDIT UNION",
     "id": "usa_290490",
     "totalAssets": 9304053076,
     "marketingBudget": 2302332,
+    "potentialMemberCount": 19600000,
     "memberChange": 5103,
     "mac": "$451.17",
     "assetsPerMemberStart": "$25,376.33",
     "assetsPerMemberEnd": "$25,209.18",
-    "costPerDollarOfAssets": "$0.03"
+    "depositPerMember": "$18,880.16",
+    "costPerDollarOfAssets": "$0.03",
+    "percentPenetration": "2%"
   },
   {
     "name": "SAN DIEGO COUNTY CREDIT UNION",
     "id": "usa_301190",
     "totalAssets": 10004354199,
     "marketingBudget": 4802050,
+    "potentialMemberCount": 22489000,
     "memberChange": -1398,
     "mac": "Losing members",
     "assetsPerMemberStart": "$23,308.33",
     "assetsPerMemberEnd": "$21,424.47",
-    "costPerDollarOfAssets": "Negative ROA"
+    "depositPerMember": "$17,674.70",
+    "costPerDollarOfAssets": "Negative ROA",
+    "percentPenetration": "2%"
   },
   {
     "name": "REDWOOD CREDIT UNION",
     "id": "usa_238791",
     "totalAssets": 8816000387,
     "marketingBudget": 5632171,
+    "potentialMemberCount": 3505540,
     "memberChange": 5621,
     "mac": "$1,001.99",
     "assetsPerMemberStart": "$23,251.58",
     "assetsPerMemberEnd": "$23,673.44",
-    "costPerDollarOfAssets": "$0.02"
+    "depositPerMember": "$20,590.78",
+    "costPerDollarOfAssets": "$0.02",
+    "percentPenetration": "11%"
   },
   {
     "name": "EASTMAN CREDIT UNION",
     "id": "usa_263391",
     "totalAssets": 8904869398,
     "marketingBudget": 3125801,
+    "potentialMemberCount": 1157176,
     "memberChange": 3584,
     "mac": "$872.15",
     "assetsPerMemberStart": "$26,177.93",
     "assetsPerMemberEnd": "$26,464.75",
-    "costPerDollarOfAssets": "$0.02"
+    "depositPerMember": "$22,573.61",
+    "costPerDollarOfAssets": "$0.02",
+    "percentPenetration": "30%"
   },
   {
     "name": "AMERICAN AIRLINES FEDERAL CREDIT UNION",
     "id": "usa_49090",
     "totalAssets": 9008942932,
     "marketingBudget": 5574404,
+    "potentialMemberCount": 920323,
     "memberChange": 5146,
     "mac": "$1,083.25",
     "assetsPerMemberStart": "$24,472.24",
     "assetsPerMemberEnd": "$24,293.72",
-    "costPerDollarOfAssets": "$0.09"
+    "depositPerMember": "$21,491.51",
+    "costPerDollarOfAssets": "$0.09",
+    "percentPenetration": "41%"
   },
   {
     "name": "WRIGHT-PATT CREDIT UNION, INC.",
     "id": "usa_368492",
     "totalAssets": 8816874903,
     "marketingBudget": 4568515,
+    "potentialMemberCount": 5000288,
     "memberChange": 470,
     "mac": "$9,720.24",
     "assetsPerMemberStart": "$16,931.56",
     "assetsPerMemberEnd": "$17,394.97",
-    "costPerDollarOfAssets": "$0.02"
+    "depositPerMember": "$14,643.97",
+    "costPerDollarOfAssets": "$0.02",
+    "percentPenetration": "10%"
   },
   {
     "name": "SPACE COAST CREDIT UNION",
     "id": "usa_26998",
     "totalAssets": 8808246174,
     "marketingBudget": 7259125,
+    "potentialMemberCount": 22610726,
     "memberChange": 7627,
     "mac": "$951.77",
     "assetsPerMemberStart": "$13,205.51",
     "assetsPerMemberEnd": "$13,050.95",
-    "costPerDollarOfAssets": "Negative ROA"
+    "depositPerMember": "$10,700.56",
+    "costPerDollarOfAssets": "Negative ROA",
+    "percentPenetration": "3%"
   },
   {
     "name": "DESERT FINANCIAL CREDIT UNION",
     "id": "usa_622475",
     "totalAssets": 8901537365,
     "marketingBudget": 16998567,
+    "potentialMemberCount": 7492200,
     "memberChange": 4244,
     "mac": "$4,005.32",
     "assetsPerMemberStart": "$18,834.45",
     "assetsPerMemberEnd": "$18,419.64",
-    "costPerDollarOfAssets": "Negative ROA"
+    "depositPerMember": "$16,699.08",
+    "costPerDollarOfAssets": "Negative ROA",
+    "percentPenetration": "6%"
   },
   {
     "name": "PENNSYLVANIA STATE EMPLOYEES CREDIT UNION",
     "id": "usa_268592",
     "totalAssets": 8545080869,
     "marketingBudget": 8521641,
+    "potentialMemberCount": 3439730,
     "memberChange": 1539,
     "mac": "$5,537.13",
     "assetsPerMemberStart": "$14,383.77",
     "assetsPerMemberEnd": "$14,642.42",
-    "costPerDollarOfAssets": "$0.05"
+    "depositPerMember": "$13,097.52",
+    "costPerDollarOfAssets": "$0.05",
+    "percentPenetration": "17%"
   },
   {
     "name": "BROADVIEW FEDERAL CREDIT UNION",
     "id": "usa_954970",
     "totalAssets": 8945023510,
     "marketingBudget": 3885457,
+    "potentialMemberCount": 1352831,
     "memberChange": 3611,
     "mac": "$1,076.01",
     "assetsPerMemberStart": "$18,007.64",
     "assetsPerMemberEnd": "$17,342.66",
-    "costPerDollarOfAssets": "Negative ROA"
+    "depositPerMember": "$15,422.02",
+    "costPerDollarOfAssets": "Negative ROA",
+    "percentPenetration": "37%"
   },
   {
     "name": "DELTA COMMUNITY CREDIT UNION",
     "id": "usa_112499",
     "totalAssets": 8625518974,
     "marketingBudget": 6947614,
+    "potentialMemberCount": 1000000,
     "memberChange": 1858,
     "mac": "$3,739.30",
     "assetsPerMemberStart": "$16,882.46",
     "assetsPerMemberEnd": "$16,874.38",
-    "costPerDollarOfAssets": "$0.26"
+    "depositPerMember": "$15,070.95",
+    "costPerDollarOfAssets": "$0.26",
+    "percentPenetration": "51%"
   },
   {
     "name": "BELLCO CREDIT UNION",
     "id": "usa_283698",
     "totalAssets": 8515955167,
     "marketingBudget": 5265035,
+    "potentialMemberCount": 4986678,
     "memberChange": 1419,
     "mac": "$3,710.38",
     "assetsPerMemberStart": "$22,214.16",
     "assetsPerMemberEnd": "$22,329.44",
-    "costPerDollarOfAssets": "$0.07"
+    "depositPerMember": "$18,079.65",
+    "costPerDollarOfAssets": "$0.07",
+    "percentPenetration": "8%"
   },
   {
     "name": "MIDFLORIDA CREDIT UNION",
     "id": "usa_101381",
     "totalAssets": 8040523100,
     "marketingBudget": 14696665,
+    "potentialMemberCount": 10507655,
     "memberChange": 4517,
     "mac": "$3,253.63",
     "assetsPerMemberStart": "$17,027.68",
     "assetsPerMemberEnd": "$17,079.19",
-    "costPerDollarOfAssets": "$0.14"
+    "depositPerMember": "$14,561.19",
+    "costPerDollarOfAssets": "$0.14",
+    "percentPenetration": "5%"
   },
   {
     "name": "MICHIGAN STATE UNIVERSITY FEDERAL CREDIT UNION",
     "id": "usa_601489",
     "totalAssets": 8164702074,
     "marketingBudget": 7519539,
+    "potentialMemberCount": 10077331,
     "memberChange": 4807,
     "mac": "$1,564.29",
     "assetsPerMemberStart": "$21,796.31",
     "assetsPerMemberEnd": "$21,224.91",
-    "costPerDollarOfAssets": "Negative ROA"
+    "depositPerMember": "$17,398.60",
+    "costPerDollarOfAssets": "Negative ROA",
+    "percentPenetration": "4%"
   },
   {
     "name": "MEMBERS 1ST FEDERAL CREDIT UNION",
     "id": "usa_934785",
     "totalAssets": 8039711199,
     "marketingBudget": 4330934,
+    "potentialMemberCount": 2938054,
     "memberChange": 5441,
     "mac": "$795.98",
     "assetsPerMemberStart": "$13,477.92",
     "assetsPerMemberEnd": "$13,374.75",
-    "costPerDollarOfAssets": "$0.39"
+    "depositPerMember": "$11,649.63",
+    "costPerDollarOfAssets": "$0.39",
+    "percentPenetration": "20%"
   },
   {
     "name": "VERIDIAN CREDIT UNION",
     "id": "usa_416197",
     "totalAssets": 7719183098,
     "marketingBudget": 3947591,
+    "potentialMemberCount": 7706833,
     "memberChange": -5369,
     "mac": "Losing members",
     "assetsPerMemberStart": "$21,749.08",
     "assetsPerMemberEnd": "$22,772.44",
-    "costPerDollarOfAssets": "$0.02"
+    "depositPerMember": "$18,831.25",
+    "costPerDollarOfAssets": "$0.02",
+    "percentPenetration": "5%"
   },
   {
     "name": "CITIZENS EQUITY FIRST CREDIT UNION",
     "id": "usa_606792",
     "totalAssets": 7768682749,
     "marketingBudget": 8033452,
+    "potentialMemberCount": 7864263,
     "memberChange": 2565,
     "mac": "$3,131.95",
     "assetsPerMemberStart": "$19,305.44",
     "assetsPerMemberEnd": "$19,535.63",
-    "costPerDollarOfAssets": "$0.06"
+    "depositPerMember": "$17,091.16",
+    "costPerDollarOfAssets": "$0.06",
+    "percentPenetration": "5%"
   },
   {
     "name": "REDSTONE FEDERAL CREDIT UNION",
     "id": "usa_308489",
     "totalAssets": 7829722812,
     "marketingBudget": 2695414,
+    "potentialMemberCount": 7571119,
     "memberChange": -1958,
     "mac": "Losing members",
     "assetsPerMemberStart": "$9,628.36",
     "assetsPerMemberEnd": "$9,726.13",
-    "costPerDollarOfAssets": "$0.04"
+    "depositPerMember": "$8,742.18",
+    "costPerDollarOfAssets": "$0.04",
+    "percentPenetration": "11%"
   },
   {
     "name": "SUMMIT CREDIT UNION",
     "id": "usa_734499",
     "totalAssets": 7470640700,
     "marketingBudget": 6923495,
+    "potentialMemberCount": 1000000,
     "memberChange": 1628,
     "mac": "$4,252.76",
     "assetsPerMemberStart": "$28,217.29",
     "assetsPerMemberEnd": "$27,998.56",
-    "costPerDollarOfAssets": "Negative ROA"
+    "depositPerMember": "$22,155.59",
+    "costPerDollarOfAssets": "Negative ROA",
+    "percentPenetration": "27%"
   },
   {
     "name": "HUDSON VALLEY CREDIT UNION",
     "id": "usa_483180",
     "totalAssets": 7438877717,
     "marketingBudget": 3413929,
+    "potentialMemberCount": 3306224,
     "memberChange": 2247,
     "mac": "$1,519.33",
     "assetsPerMemberStart": "$20,148.09",
     "assetsPerMemberEnd": "$20,058.12",
-    "costPerDollarOfAssets": "$0.29"
+    "depositPerMember": "$17,608.71",
+    "costPerDollarOfAssets": "$0.29",
+    "percentPenetration": "11%"
   },
   {
     "name": "VIRGINIA FEDERAL CREDIT UNION",
     "id": "usa_807795",
     "totalAssets": 6917912589,
     "marketingBudget": 7753551,
+    "potentialMemberCount": 2660332,
     "memberChange": -2207,
     "mac": "Losing members",
     "assetsPerMemberStart": "$14,143.10",
     "assetsPerMemberEnd": "$14,069.85",
-    "costPerDollarOfAssets": "Negative ROA"
+    "depositPerMember": "$12,182.15",
+    "costPerDollarOfAssets": "Negative ROA",
+    "percentPenetration": "18%"
   },
   {
     "name": "LANDMARK CREDIT UNION",
     "id": "usa_572495",
     "totalAssets": 6728405066,
     "marketingBudget": 3847676,
+    "potentialMemberCount": 4213886,
     "memberChange": -351,
     "mac": "Losing members",
     "assetsPerMemberStart": "$16,939.89",
     "assetsPerMemberEnd": "$17,059.72",
-    "costPerDollarOfAssets": "$0.09"
+    "depositPerMember": "$13,799.77",
+    "costPerDollarOfAssets": "$0.09",
+    "percentPenetration": "9%"
   },
   {
     "name": "DFCU FINANCIAL CREDIT UNION",
     "id": "usa_29980",
     "totalAssets": 6581152544,
     "marketingBudget": 2107853,
+    "potentialMemberCount": 5048000,
     "memberChange": -541,
     "mac": "Losing members",
     "assetsPerMemberStart": "$27,230.85",
     "assetsPerMemberEnd": "$27,627.13",
-    "costPerDollarOfAssets": "$0.03"
+    "depositPerMember": "$25,146.55",
+    "costPerDollarOfAssets": "$0.03",
+    "percentPenetration": "5%"
   },
   {
     "name": "KINECTA FEDERAL CREDIT UNION",
     "id": "usa_277473",
     "totalAssets": 6748872512,
     "marketingBudget": 3753011,
+    "potentialMemberCount": 15825561,
     "memberChange": -1082,
     "mac": "Losing members",
     "assetsPerMemberStart": "$26,798.89",
     "assetsPerMemberEnd": "$26,547.24",
-    "costPerDollarOfAssets": "Negative ROA"
+    "depositPerMember": "$19,981.97",
+    "costPerDollarOfAssets": "Negative ROA",
+    "percentPenetration": "2%"
   },
   {
     "name": "MISSION FEDERAL CREDIT UNION",
     "id": "usa_133186",
     "totalAssets": 6580197052,
     "marketingBudget": 5039972,
+    "potentialMemberCount": 2958289,
     "memberChange": 3079,
     "mac": "$1,636.89",
     "assetsPerMemberStart": "$21,111.76",
     "assetsPerMemberEnd": "$20,999.68",
-    "costPerDollarOfAssets": "$0.17"
+    "depositPerMember": "$18,458.04",
+    "costPerDollarOfAssets": "$0.17",
+    "percentPenetration": "11%"
   },
   {
     "name": "BANK FUND STAFF FEDERAL CREDIT UNION",
     "id": "usa_561471",
     "totalAssets": 6430617636,
     "marketingBudget": 500258,
+    "potentialMemberCount": 142333,
     "memberChange": 180,
     "mac": "$2,779.21",
     "assetsPerMemberStart": "$63,713.64",
     "assetsPerMemberEnd": "$64,573.51",
-    "costPerDollarOfAssets": "$0.01"
+    "depositPerMember": "$56,482.95",
+    "costPerDollarOfAssets": "$0.01",
+    "percentPenetration": "71%"
   },
   {
     "name": "WESCOM CENTRAL CREDIT UNION",
     "id": "usa_344692",
     "totalAssets": 6419799024,
     "marketingBudget": 8027166,
+    "potentialMemberCount": 27818144,
     "memberChange": 2142,
     "mac": "$3,747.51",
     "assetsPerMemberStart": "$25,674.88",
     "assetsPerMemberEnd": "$24,889.60",
-    "costPerDollarOfAssets": "Negative ROA"
+    "depositPerMember": "$17,824.90",
+    "costPerDollarOfAssets": "Negative ROA",
+    "percentPenetration": "1%"
   },
   {
     "name": "CITADEL FEDERAL CREDIT UNION",
     "id": "usa_167873",
     "totalAssets": 6046199480,
     "marketingBudget": 4160751,
+    "potentialMemberCount": 4276170,
     "memberChange": 1539,
     "mac": "$2,703.54",
     "assetsPerMemberStart": "$22,884.93",
     "assetsPerMemberEnd": "$23,188.00",
-    "costPerDollarOfAssets": "$0.04"
+    "depositPerMember": "$19,107.25",
+    "costPerDollarOfAssets": "$0.04",
+    "percentPenetration": "6%"
   },
   {
     "name": "COMMUNITY FIRST CREDIT UNION",
     "id": "usa_813394",
     "totalAssets": 5939407253,
     "marketingBudget": 3871059,
+    "potentialMemberCount": 1169166,
     "memberChange": 720,
     "mac": "$5,376.47",
     "assetsPerMemberStart": "$37,383.45",
     "assetsPerMemberEnd": "$37,793.13",
-    "costPerDollarOfAssets": "$0.04"
+    "depositPerMember": "$32,949.18",
+    "costPerDollarOfAssets": "$0.04",
+    "percentPenetration": "14%"
   },
   {
     "name": "TINKER FEDERAL CREDIT UNION",
     "id": "usa_220590",
     "totalAssets": 6025622237,
     "marketingBudget": 4919520,
+    "potentialMemberCount": 1002165,
     "memberChange": 2533,
     "mac": "$1,942.17",
     "assetsPerMemberStart": "$12,832.21",
     "assetsPerMemberEnd": "$12,771.80",
-    "costPerDollarOfAssets": "$1.24"
+    "depositPerMember": "$10,670.31",
+    "costPerDollarOfAssets": "$1.24",
+    "percentPenetration": "47%"
   },
   {
     "name": "BAXTER CREDIT UNION",
     "id": "usa_858975",
     "totalAssets": 5907858695,
     "marketingBudget": 3637058,
+    "potentialMemberCount": 11379154,
     "memberChange": 1594,
     "mac": "$2,281.72",
     "assetsPerMemberStart": "$16,565.19",
     "assetsPerMemberEnd": "$16,799.89",
-    "costPerDollarOfAssets": "$0.03"
+    "depositPerMember": "$12,938.32",
+    "costPerDollarOfAssets": "$0.03",
+    "percentPenetration": "3%"
   },
   {
     "name": "SPOKANE TEACHERS CREDIT UNION",
     "id": "usa_678892",
     "totalAssets": 5872400967,
     "marketingBudget": 5044888,
+    "potentialMemberCount": 8176416,
     "memberChange": 2112,
     "mac": "$2,388.68",
     "assetsPerMemberStart": "$20,667.86",
     "assetsPerMemberEnd": "$20,441.02",
-    "costPerDollarOfAssets": "Negative ROA"
+    "depositPerMember": "$16,830.38",
+    "costPerDollarOfAssets": "Negative ROA",
+    "percentPenetration": "4%"
   },
   {
     "name": "SERVICE FEDERAL CREDIT UNION",
     "id": "usa_839581",
     "totalAssets": 5717610074,
     "marketingBudget": 6653212,
+    "potentialMemberCount": 23438664,
     "memberChange": 1791,
     "mac": "$3,714.80",
     "assetsPerMemberStart": "$15,845.01",
     "assetsPerMemberEnd": "$15,998.02",
-    "costPerDollarOfAssets": "$0.08"
+    "depositPerMember": "$13,918.68",
+    "costPerDollarOfAssets": "$0.08",
+    "percentPenetration": "2%"
   },
   {
     "name": "UNIVERSITY OF WISCONSIN CREDIT UNION",
     "id": "usa_789097",
     "totalAssets": 5614022005,
     "marketingBudget": 9860805,
+    "potentialMemberCount": 1100000,
     "memberChange": 1759,
     "mac": "$5,605.92",
     "assetsPerMemberStart": "$15,401.14",
     "assetsPerMemberEnd": "$15,433.98",
-    "costPerDollarOfAssets": "$0.25"
+    "depositPerMember": "$13,273.58",
+    "costPerDollarOfAssets": "$0.25",
+    "percentPenetration": "33%"
   },
   {
     "name": "GESA CREDIT UNION",
     "id": "usa_389086",
     "totalAssets": 5565453827,
     "marketingBudget": 9053590,
+    "potentialMemberCount": 10173645,
     "memberChange": 32,
     "mac": "$282,924.69",
     "assetsPerMemberStart": "$19,075.39",
     "assetsPerMemberEnd": "$19,293.21",
-    "costPerDollarOfAssets": "$0.14"
+    "depositPerMember": "$15,725.20",
+    "costPerDollarOfAssets": "$0.14",
+    "percentPenetration": "3%"
   },
   {
     "name": "NASA FEDERAL CREDIT UNION",
     "id": "usa_910181",
     "totalAssets": 5499781230,
     "marketingBudget": 1445452,
+    "potentialMemberCount": 615925,
     "memberChange": -2207,
     "mac": "Losing members",
     "assetsPerMemberStart": "$22,323.26",
     "assetsPerMemberEnd": "$22,597.67",
-    "costPerDollarOfAssets": "$0.08"
+    "depositPerMember": "$18,188.69",
+    "costPerDollarOfAssets": "$0.08",
+    "percentPenetration": "40%"
   },
   {
     "name": "COASTAL FEDERAL CREDIT UNION",
     "id": "usa_398583",
     "totalAssets": 5351199898,
     "marketingBudget": 2733647,
+    "potentialMemberCount": 2599985,
     "memberChange": 2142,
     "mac": "$1,276.21",
     "assetsPerMemberStart": "$15,982.51",
     "assetsPerMemberEnd": "$16,343.33",
-    "costPerDollarOfAssets": "$0.02"
+    "depositPerMember": "$13,970.77",
+    "costPerDollarOfAssets": "$0.02",
+    "percentPenetration": "13%"
   },
   {
     "name": "STATE EMPLOYEES CU OF MARYLAND, INC CREDIT UNION",
     "id": "usa_218597",
     "totalAssets": 5702055189,
     "marketingBudget": 4530946,
+    "potentialMemberCount": 2100000,
     "memberChange": -9,
     "mac": "Losing members",
     "assetsPerMemberStart": "$21,827.30",
     "assetsPerMemberEnd": "$20,943.94",
-    "costPerDollarOfAssets": "Negative ROA"
+    "depositPerMember": "$17,998.56",
+    "costPerDollarOfAssets": "Negative ROA",
+    "percentPenetration": "12%"
   },
   {
     "name": "TRUSTONE FINANCIAL CREDIT UNION",
     "id": "usa_427399",
     "totalAssets": 5352108834,
     "marketingBudget": 3562104,
+    "potentialMemberCount": 4905722,
     "memberChange": 924,
     "mac": "$3,855.09",
     "assetsPerMemberStart": "$24,843.61",
     "assetsPerMemberEnd": "$25,067.89",
-    "costPerDollarOfAssets": "$0.05"
+    "depositPerMember": "$19,569.04",
+    "costPerDollarOfAssets": "$0.05",
+    "percentPenetration": "4%"
   },
   {
     "name": "LANGLEY FEDERAL CREDIT UNION",
     "id": "usa_722674",
     "totalAssets": 5361019428,
     "marketingBudget": 8916464,
+    "potentialMemberCount": 1600000,
     "memberChange": 6721,
     "mac": "$1,326.66",
     "assetsPerMemberStart": "$13,926.86",
     "assetsPerMemberEnd": "$13,790.27",
-    "costPerDollarOfAssets": "$0.22"
+    "depositPerMember": "$11,853.64",
+    "costPerDollarOfAssets": "$0.22",
+    "percentPenetration": "24%"
   },
   {
     "name": "ROYAL CREDIT UNION",
     "id": "usa_961295",
     "totalAssets": 5362983803,
     "marketingBudget": 5738605,
+    "potentialMemberCount": 4627588,
     "memberChange": 2574,
     "mac": "$2,229.45",
     "assetsPerMemberStart": "$16,830.59",
     "assetsPerMemberEnd": "$16,590.23",
-    "costPerDollarOfAssets": "Negative ROA"
+    "depositPerMember": "$14,713.11",
+    "costPerDollarOfAssets": "Negative ROA",
+    "percentPenetration": "7%"
   },
   {
     "name": "GENISYS CREDIT UNION",
     "id": "usa_1758821",
     "totalAssets": 5271752429,
     "marketingBudget": 3175321,
+    "potentialMemberCount": 13941115,
     "memberChange": 2914,
     "mac": "$1,089.68",
     "assetsPerMemberStart": "$18,797.48",
     "assetsPerMemberEnd": "$18,724.51",
-    "costPerDollarOfAssets": "$0.09"
+    "depositPerMember": "$15,523.48",
+    "costPerDollarOfAssets": "$0.09",
+    "percentPenetration": "2%"
   },
   {
     "name": "TRAVIS CREDIT UNION",
     "id": "usa_212586",
     "totalAssets": 5208699637,
     "marketingBudget": 3842648,
+    "potentialMemberCount": 7739096,
     "memberChange": 138,
     "mac": "$27,845.28",
     "assetsPerMemberStart": "$20,211.87",
     "assetsPerMemberEnd": "$20,376.28",
-    "costPerDollarOfAssets": "$0.09"
+    "depositPerMember": "$16,995.35",
+    "costPerDollarOfAssets": "$0.09",
+    "percentPenetration": "3%"
   },
   {
     "name": "EVERWISE CREDIT UNION",
     "id": "usa_275590",
     "totalAssets": 5191587858,
     "marketingBudget": 5195431,
+    "potentialMemberCount": 7066102,
     "memberChange": -1101,
     "mac": "Losing members",
     "assetsPerMemberStart": "$17,424.65",
     "assetsPerMemberEnd": "$17,685.63",
-    "costPerDollarOfAssets": "$0.09"
+    "depositPerMember": "$15,777.69",
+    "costPerDollarOfAssets": "$0.09",
+    "percentPenetration": "4%"
   },
   {
     "name": "VISIONS FEDERAL CREDIT UNION",
     "id": "usa_562786",
     "totalAssets": 5261855076,
     "marketingBudget": 4206263,
+    "potentialMemberCount": 4193908,
     "memberChange": -8975,
     "mac": "Losing members",
     "assetsPerMemberStart": "$20,353.84",
     "assetsPerMemberEnd": "$20,943.71",
-    "costPerDollarOfAssets": "Negative ROA"
+    "depositPerMember": "$17,889.45",
+    "costPerDollarOfAssets": "Negative ROA",
+    "percentPenetration": "6%"
   },
   {
     "name": "TRULIANT FEDERAL CREDIT UNION",
     "id": "usa_446185",
     "totalAssets": 5221549692,
     "marketingBudget": 5874333,
+    "potentialMemberCount": 6411363,
     "memberChange": -3807,
     "mac": "Losing members",
     "assetsPerMemberStart": "$15,158.52",
     "assetsPerMemberEnd": "$15,309.01",
-    "costPerDollarOfAssets": "Negative ROA"
+    "depositPerMember": "$13,274.45",
+    "costPerDollarOfAssets": "Negative ROA",
+    "percentPenetration": "5%"
   },
   {
     "name": "WASHINGTON STATE EMPLOYEES CREDIT UNION",
     "id": "usa_608198",
     "totalAssets": 5255760569,
     "marketingBudget": 4286513,
+    "potentialMemberCount": 7812880,
     "memberChange": -259,
     "mac": "Losing members",
     "assetsPerMemberStart": "$16,438.53",
     "assetsPerMemberEnd": "$16,167.96",
-    "costPerDollarOfAssets": "Negative ROA"
+    "depositPerMember": "$13,801.25",
+    "costPerDollarOfAssets": "Negative ROA",
+    "percentPenetration": "4%"
   },
   {
     "name": "COMMUNITYAMERICA CREDIT UNION",
     "id": "usa_524494",
     "totalAssets": 5425153959,
     "marketingBudget": 16142810,
+    "potentialMemberCount": 5000000,
     "memberChange": 5339,
     "mac": "$3,023.56",
     "assetsPerMemberStart": "$16,123.07",
     "assetsPerMemberEnd": "$14,859.11",
-    "costPerDollarOfAssets": "Negative ROA"
+    "depositPerMember": "$12,474.84",
+    "costPerDollarOfAssets": "Negative ROA",
+    "percentPenetration": "7%"
   },
   {
     "name": "AMERICAN HERITAGE FEDERAL CREDIT UNION",
     "id": "usa_801878",
     "totalAssets": 4841386801,
     "marketingBudget": 4801521,
+    "potentialMemberCount": 1818840,
     "memberChange": 2697,
     "mac": "$1,780.32",
     "assetsPerMemberStart": "$15,344.25",
     "assetsPerMemberEnd": "$15,898.71",
-    "costPerDollarOfAssets": "$0.02"
+    "depositPerMember": "$12,134.96",
+    "costPerDollarOfAssets": "$0.02",
+    "percentPenetration": "17%"
   },
   {
     "name": "CALIFORNIA CREDIT UNION",
     "id": "usa_234597",
     "totalAssets": 5134469225,
     "marketingBudget": 5500906,
+    "potentialMemberCount": 20000000,
     "memberChange": 1141,
     "mac": "$4,821.13",
     "assetsPerMemberStart": "$26,133.21",
     "assetsPerMemberEnd": "$25,536.56",
-    "costPerDollarOfAssets": "Negative ROA"
+    "depositPerMember": "$23,204.53",
+    "costPerDollarOfAssets": "Negative ROA",
+    "percentPenetration": "1%"
   },
   {
     "name": "CHEVRON FEDERAL CREDIT UNION",
     "id": "usa_414894",
     "totalAssets": 4837830041,
     "marketingBudget": 600557,
+    "potentialMemberCount": 703556,
     "memberChange": 149,
     "mac": "$4,030.58",
     "assetsPerMemberStart": "$35,150.98",
     "assetsPerMemberEnd": "$35,617.86",
-    "costPerDollarOfAssets": "$0.01"
+    "depositPerMember": "$30,708.87",
+    "costPerDollarOfAssets": "$0.01",
+    "percentPenetration": "20%"
   },
   {
     "name": "TEXAS DOW EMPLOYEES CREDIT UNION",
     "id": "usa_434593",
     "totalAssets": 4835296940,
     "marketingBudget": 9251477,
+    "potentialMemberCount": 30749519,
     "memberChange": 2364,
     "mac": "$3,913.48",
     "assetsPerMemberStart": "$12,756.09",
     "assetsPerMemberEnd": "$12,514.94",
-    "costPerDollarOfAssets": "Negative ROA"
+    "depositPerMember": "$10,492.30",
+    "costPerDollarOfAssets": "Negative ROA",
+    "percentPenetration": "1%"
   },
   {
     "name": "TECHNOLOGY CREDIT UNION",
     "id": "usa_171889",
     "totalAssets": 4749666439,
     "marketingBudget": 3289127,
+    "potentialMemberCount": 4000000,
     "memberChange": 151,
     "mac": "$21,782.30",
     "assetsPerMemberStart": "$23,631.71",
     "assetsPerMemberEnd": "$23,709.35",
-    "costPerDollarOfAssets": "$0.17"
+    "depositPerMember": "$19,396.56",
+    "costPerDollarOfAssets": "$0.17",
+    "percentPenetration": "5%"
   },
   {
     "name": "FOUNDERS FEDERAL CREDIT UNION",
     "id": "usa_549291",
     "totalAssets": 4817730099,
     "marketingBudget": 8741190,
+    "potentialMemberCount": 2560833,
     "memberChange": 2756,
     "mac": "$3,171.69",
     "assetsPerMemberStart": "$17,773.60",
     "assetsPerMemberEnd": "$17,396.77",
-    "costPerDollarOfAssets": "Negative ROA"
+    "depositPerMember": "$14,971.21",
+    "costPerDollarOfAssets": "Negative ROA",
+    "percentPenetration": "11%"
   },
   {
     "name": "FAIRWINDS CREDIT UNION",
     "id": "usa_414371",
     "totalAssets": 4832971664,
     "marketingBudget": 4396987,
+    "potentialMemberCount": 18728146,
     "memberChange": 994,
     "mac": "$4,423.53",
     "assetsPerMemberStart": "$20,789.12",
     "assetsPerMemberEnd": "$20,240.36",
-    "costPerDollarOfAssets": "Negative ROA"
+    "depositPerMember": "$18,422.96",
+    "costPerDollarOfAssets": "Negative ROA",
+    "percentPenetration": "1%"
   },
   {
     "name": "EDUCATIONAL EMPLOYEES CREDIT UNION",
     "id": "usa_504898",
     "totalAssets": 4694027564,
     "marketingBudget": 4761568,
+    "potentialMemberCount": 1889210,
     "memberChange": 4481,
     "mac": "$1,062.61",
     "assetsPerMemberStart": "$12,423.26",
     "assetsPerMemberEnd": "$12,322.59",
-    "costPerDollarOfAssets": "$0.28"
+    "depositPerMember": "$10,804.00",
+    "costPerDollarOfAssets": "$0.28",
+    "percentPenetration": "20%"
   },
   {
     "name": "NUSENDA FEDERAL CREDIT UNION",
     "id": "usa_763976",
     "totalAssets": 4932777059,
     "marketingBudget": 7462672,
+    "potentialMemberCount": 4667756,
     "memberChange": 2323,
     "mac": "$3,212.51",
     "assetsPerMemberStart": "$17,794.69",
     "assetsPerMemberEnd": "$16,740.17",
-    "costPerDollarOfAssets": "Negative ROA"
+    "depositPerMember": "$14,417.37",
+    "costPerDollarOfAssets": "Negative ROA",
+    "percentPenetration": "6%"
   },
   {
     "name": "KNOXVILLE TVA EMPLOYEES CREDIT UNION",
     "id": "usa_456492",
     "totalAssets": 4597875929,
     "marketingBudget": 2341600,
+    "potentialMemberCount": 1169312,
     "memberChange": 2276,
     "mac": "$1,028.82",
     "assetsPerMemberStart": "$16,124.35",
     "assetsPerMemberEnd": "$16,073.88",
-    "costPerDollarOfAssets": "$0.11"
+    "depositPerMember": "$13,809.88",
+    "costPerDollarOfAssets": "$0.11",
+    "percentPenetration": "25%"
   },
   {
     "name": "APPLE FEDERAL CREDIT UNION",
     "id": "usa_625289",
     "totalAssets": 4525853838,
     "marketingBudget": 1738004,
+    "potentialMemberCount": 2415317,
     "memberChange": 181,
     "mac": "$9,602.23",
     "assetsPerMemberStart": "$17,924.03",
     "assetsPerMemberEnd": "$18,280.66",
-    "costPerDollarOfAssets": "$0.02"
+    "depositPerMember": "$15,096.37",
+    "costPerDollarOfAssets": "$0.02",
+    "percentPenetration": "10%"
   },
   {
     "name": "ROBINS FINANCIAL CREDIT UNION",
     "id": "usa_410784",
     "totalAssets": 4572582738,
     "marketingBudget": 1982495,
+    "potentialMemberCount": 4035989,
     "memberChange": 50,
     "mac": "$39,649.90",
     "assetsPerMemberStart": "$16,852.35",
     "assetsPerMemberEnd": "$16,904.44",
-    "costPerDollarOfAssets": "$0.13"
+    "depositPerMember": "$14,382.56",
+    "costPerDollarOfAssets": "$0.13",
+    "percentPenetration": "7%"
   },
   {
     "name": "CANVAS CREDIT UNION",
     "id": "usa_863399",
     "totalAssets": 4526396620,
     "marketingBudget": 8137702,
+    "potentialMemberCount": 4994841,
     "memberChange": 3001,
     "mac": "$2,711.66",
     "assetsPerMemberStart": "$14,979.44",
     "assetsPerMemberEnd": "$15,026.48",
-    "costPerDollarOfAssets": "$0.14"
+    "depositPerMember": "$13,384.25",
+    "costPerDollarOfAssets": "$0.14",
+    "percentPenetration": "6%"
   },
   {
     "name": "TOWER FEDERAL CREDIT UNION",
     "id": "usa_498586",
     "totalAssets": 4581628230,
     "marketingBudget": 606232,
+    "potentialMemberCount": 226817,
     "memberChange": -3097,
     "mac": "Losing members",
     "assetsPerMemberStart": "$20,199.67",
     "assetsPerMemberEnd": "$20,313.04",
-    "costPerDollarOfAssets": "Negative ROA"
+    "depositPerMember": "$17,277.23",
+    "costPerDollarOfAssets": "Negative ROA",
+    "percentPenetration": "99%"
   },
   {
     "name": "JOVIA FINANCIAL FEDERAL CREDIT UNION",
     "id": "usa_823674",
     "totalAssets": 4596442069,
     "marketingBudget": 7910477,
+    "potentialMemberCount": 2500000,
     "memberChange": 2218,
     "mac": "$3,566.49",
     "assetsPerMemberStart": "$19,290.57",
     "assetsPerMemberEnd": "$18,860.54",
-    "costPerDollarOfAssets": "Negative ROA"
+    "depositPerMember": "$16,833.09",
+    "costPerDollarOfAssets": "Negative ROA",
+    "percentPenetration": "10%"
   },
   {
     "name": "FIRST COMMUNITY CREDIT UNION",
     "id": "usa_674997",
     "totalAssets": 4468203907,
     "marketingBudget": 5462754,
+    "potentialMemberCount": 2609639,
     "memberChange": 4268,
     "mac": "$1,279.93",
     "assetsPerMemberStart": "$11,095.86",
     "assetsPerMemberEnd": "$11,099.75",
-    "costPerDollarOfAssets": "$0.11"
+    "depositPerMember": "$9,607.18",
+    "costPerDollarOfAssets": "$0.11",
+    "percentPenetration": "16%"
   },
   {
     "name": "RALLY CREDIT UNION",
     "id": "usa_930189",
     "totalAssets": 4442938185,
     "marketingBudget": 3637920,
+    "potentialMemberCount": 28995881,
     "memberChange": 2737,
     "mac": "$1,329.16",
     "assetsPerMemberStart": "$19,673.38",
     "assetsPerMemberEnd": "$19,697.98",
-    "costPerDollarOfAssets": "$0.06"
+    "depositPerMember": "$16,439.79",
+    "costPerDollarOfAssets": "$0.06",
+    "percentPenetration": "1%"
   },
   {
     "name": "MUNICIPAL CREDIT UNION",
     "id": "usa_210797",
     "totalAssets": 4375444724,
     "marketingBudget": 1274600,
+    "potentialMemberCount": 1159400,
     "memberChange": -6114,
     "mac": "Losing members",
     "assetsPerMemberStart": "$7,010.91",
     "assetsPerMemberEnd": "$7,258.92",
-    "costPerDollarOfAssets": "$0.01"
+    "depositPerMember": "$6,368.86",
+    "costPerDollarOfAssets": "$0.01",
+    "percentPenetration": "53%"
   },
   {
     "name": "STATE FARM FEDERAL CREDIT UNION",
     "id": "usa_231176",
     "totalAssets": 4364915289,
     "marketingBudget": 1540,
+    "potentialMemberCount": 167232,
     "memberChange": 830,
     "mac": "$1.86",
     "assetsPerMemberStart": "$38,731.42",
     "assetsPerMemberEnd": "$39,073.26",
-    "costPerDollarOfAssets": "$0.00"
+    "depositPerMember": "$33,055.53",
+    "costPerDollarOfAssets": "$0.00",
+    "percentPenetration": "68%"
   },
   {
     "name": "GENERAL ELECTRIC CREDIT UNION",
     "id": "usa_23287",
     "totalAssets": 4618045309,
     "marketingBudget": 1892724,
+    "potentialMemberCount": 3350000,
     "memberChange": 1842,
     "mac": "$1,027.54",
     "assetsPerMemberStart": "$15,932.92",
     "assetsPerMemberEnd": "$15,192.46",
-    "costPerDollarOfAssets": "Negative ROA"
+    "depositPerMember": "$12,627.91",
+    "costPerDollarOfAssets": "Negative ROA",
+    "percentPenetration": "9%"
   },
   {
     "name": "ASCEND FEDERAL CREDIT UNION",
     "id": "usa_290986",
     "totalAssets": 4385619742,
     "marketingBudget": 4374222,
+    "potentialMemberCount": 3871770,
     "memberChange": 2720,
     "mac": "$1,608.17",
     "assetsPerMemberStart": "$17,798.06",
     "assetsPerMemberEnd": "$17,710.38",
-    "costPerDollarOfAssets": "$0.16"
+    "depositPerMember": "$14,223.75",
+    "costPerDollarOfAssets": "$0.16",
+    "percentPenetration": "6%"
   },
   {
     "name": "CREDIT HUMAN FEDERAL CREDIT UNION",
     "id": "usa_460592",
     "totalAssets": 4414968054,
     "marketingBudget": 4803751,
+    "potentialMemberCount": 1890724,
     "memberChange": 2567,
     "mac": "$1,871.35",
     "assetsPerMemberStart": "$17,598.77",
     "assetsPerMemberEnd": "$17,162.29",
-    "costPerDollarOfAssets": "Negative ROA"
+    "depositPerMember": "$14,047.31",
+    "costPerDollarOfAssets": "Negative ROA",
+    "percentPenetration": "13%"
   },
   {
     "name": "GECU FEDERAL CREDIT UNION",
     "id": "usa_364690",
     "totalAssets": 4343428267,
     "marketingBudget": 6178558,
+    "potentialMemberCount": 5071762,
     "memberChange": 1564,
     "mac": "$3,950.48",
     "assetsPerMemberStart": "$9,995.03",
     "assetsPerMemberEnd": "$9,954.27",
-    "costPerDollarOfAssets": "Negative ROA"
+    "depositPerMember": "$7,536.07",
+    "costPerDollarOfAssets": "Negative ROA",
+    "percentPenetration": "9%"
   }
 ]
