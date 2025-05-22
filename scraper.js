@@ -210,6 +210,7 @@ async function updateDataFile() {
 for (const bank of banks) {
   bank.totalAssets = await fetchTotalAssets(bank.id);
   bank.marketingBudget = await fetchMarketingBudget(bank.id);
+  bank.potentialMemberCount = await fetchPotentialMemberCount(bank.id);
 
   const memberCount = await fetchMemberCount(bank.id);
   const memberCountYTD = await fetchMemberCountYTD(bank.id);
@@ -276,6 +277,20 @@ if (
 }
 
 
+// Percent Penetration (no decimals)
+if (
+  bank.potentialMemberCount !== null &&
+  bank.potentialMemberCount !== 0 &&
+  memberCountYTD !== null
+) {
+  const penetration = 1 - ((bank.potentialMemberCount - memberCountYTD) / bank.potentialMemberCount);
+  bank.percentPenetration = `${Math.round(penetration * 100)}%`;
+} else {
+  bank.percentPenetration = "Undefined";
+}
+
+    
+
   } else {
     bank.memberChange = null;
     bank.mac = null;
@@ -285,7 +300,7 @@ if (
     bank.costPerDollarOfAssets = null;
   }
 
-  bank.potentialMemberCount = await fetchPotentialMemberCount(bank.id);
+
 }
 
 
