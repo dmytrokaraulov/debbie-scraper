@@ -177,6 +177,32 @@ async function fetchMemberCountYTD(id) {
   }
 }
 
+async function fetchDepositYTD(id) {
+  const reportUrl = `https://www.ibanknet.com/scripts/callreports/viewreport.aspx?ibnid=${id}&per=20231231&rpt=D&typ=html`;
+
+  try {
+    const res = await axios.get(reportUrl);
+    const $ = cheerio.load(res.data);
+
+    let value = null;
+
+    $('tr').each((_, row) => {
+      const cells = $(row).find('td');
+      const label = $(cells[0]).text().trim();
+      if (label === 'TOTAL SHARES and DEPOSITS (Sum of items 7 and 8) (Total Amount)') {
+        const rawValue = $(cells[1]).text().trim().replace(/,/g, '');
+        value = parseInt(rawValue, 10);
+      }
+    });
+
+    return value;
+  } catch (err) {
+    console.error(`Error fetching deposits ${id}: ${err.message}`);
+    return null;
+  }
+}
+
+
 async function updateDataFile() {
   try {
     const banks = await scrapeLinksWithClass();
@@ -188,6 +214,8 @@ for (const bank of banks) {
   const memberCount = await fetchMemberCount(bank.id);
   const memberCountYTD = await fetchMemberCountYTD(bank.id);
   const totalAssetsYDT = await fetchTotalAssetsYTD(bank.id);
+  const depositYDT = await fetchDepositYTD(bank.id);
+
 
   if (memberCount !== null && memberCountYTD !== null) {
     const memberChange = memberCountYTD - memberCount;
@@ -217,11 +245,20 @@ for (const bank of banks) {
       bank.assetsPerMemberEnd = null;
     }
 
+     // Deposits
+    if (depositYDT !== null && memberCountYTD > 0) {
+      const depositPerMember = depositYDT / memberCountYTD;
+      bank.depositPerMember = `$${depositPerMember.toFixed(2).replace(/\B(?=(\d{3})+(?!\d))/g, ",")}`;
+    } else {
+      bank.depositPerMember = null;
+    }
+
   } else {
     bank.memberChange = null;
     bank.mac = null;
     bank.assetsPerMemberStart = null;
     bank.assetsPerMemberEnd = null;
+    bank.depositPerMember = null;
   }
 
   bank.potentialMemberCount = await fetchPotentialMemberCount(bank.id);
