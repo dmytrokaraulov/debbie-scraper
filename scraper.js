@@ -157,20 +157,30 @@ async function updateDataFile() {
     const banks = await scrapeLinksWithClass();
 
     for (const bank of banks) {
-      bank.totalAssets = await fetchTotalAssets(bank.id);
-      bank.marketingBudget = await fetchMarketingBudget(bank.id);
+  bank.totalAssets = await fetchTotalAssets(bank.id);
+  bank.marketingBudget = await fetchMarketingBudget(bank.id);
 
-      const memberCount = await fetchMemberCount(bank.id);
-      const memberCountYTD = await fetchMemberCountYTD(bank.id);
+  const memberCount = await fetchMemberCount(bank.id);
+  const memberCountYTD = await fetchMemberCountYTD(bank.id);
 
-      if (memberCount !== null && memberCountYTD !== null) {
-        bank.memberChange = memberCountYTD - memberCount;
-      } else {
-        bank.memberChange = null;
-      }
+  if (memberCount !== null && memberCountYTD !== null) {
+    const memberChange = memberCountYTD - memberCount;
+    bank.memberChange = memberChange;
 
-      bank.potentialMemberCount = await fetchPotentialMemberCount(bank.id);
+    // Calculate MAC
+    if (memberChange > 0 && bank.marketingBudget !== null) {
+      const mac = bank.marketingBudget / memberChange;
+      bank.mac = `$${mac.toFixed(2).replace(/\B(?=(\d{3})+(?!\d))/g, ",")}`;
+    } else {
+      bank.mac = "Losing members";
     }
+  } else {
+    bank.memberChange = null;
+    bank.mac = null;
+  }
+
+  bank.potentialMemberCount = await fetchPotentialMemberCount(bank.id);
+}
 
     fs.writeFileSync('data.json', JSON.stringify(banks, null, 2));
     console.log('Data with total assets and member change saved to data.json!');
