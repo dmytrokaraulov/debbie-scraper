@@ -253,12 +253,36 @@ for (const bank of banks) {
       bank.depositPerMember = null;
     }
 
+ // Cost per Dollar of Assets
+if (
+  bank.totalAssets !== null &&
+  totalAssetsYDT !== null &&
+  bank.marketingBudget !== null
+) {
+  const assetDelta = totalAssetsYDT - bank.totalAssets;
+
+  if (assetDelta === 0) {
+    bank.costPerDollarOfAssets = "Undefined";
+  } else {
+    const cost = bank.marketingBudget / assetDelta;
+    if (cost < 0) {
+      bank.costPerDollarOfAssets = "Negative ROA";
+    } else {
+      bank.costPerDollarOfAssets = `$${cost.toFixed(2).replace(/\B(?=(\d{3})+(?!\d))/g, ",")}`;
+    }
+  }
+} else {
+  bank.costPerDollarOfAssets = null;
+}
+
+
   } else {
     bank.memberChange = null;
     bank.mac = null;
     bank.assetsPerMemberStart = null;
     bank.assetsPerMemberEnd = null;
     bank.depositPerMember = null;
+    bank.costPerDollarOfAssets = null;
   }
 
   bank.potentialMemberCount = await fetchPotentialMemberCount(bank.id);
