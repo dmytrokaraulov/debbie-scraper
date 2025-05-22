@@ -201,18 +201,27 @@ for (const bank of banks) {
       bank.mac = "Losing members";
     }
 
-    // Assets per Member
+    // Assets per Member Start
     if (bank.totalAssets !== null && memberCount > 0) {
-      const assetsPerMember = bank.totalAssets / memberCount;
-      bank.assetsPerMember = `$${assetsPerMember.toFixed(2).replace(/\B(?=(\d{3})+(?!\d))/g, ",")}`;
+      const assetsPerMemberStart = bank.totalAssets / memberCount;
+      bank.assetsPerMemberStart = `$${assetsPerMemberStart.toFixed(2).replace(/\B(?=(\d{3})+(?!\d))/g, ",")}`;
     } else {
-      bank.assetsPerMember = null;
+      bank.assetsPerMemberStart = null;
+    }
+
+     // Assets per Member End
+    if (totalAssetsYDT !== null && memberCountYTD > 0) {
+      const assetsPerMemberEnd = totalAssetsYDT / memberCountYTD;
+      bank.assetsPerMemberEnd = `$${assetsPerMemberEnd.toFixed(2).replace(/\B(?=(\d{3})+(?!\d))/g, ",")}`;
+    } else {
+      bank.assetsPerMemberEnd = null;
     }
 
   } else {
     bank.memberChange = null;
     bank.mac = null;
-    bank.assetsPerMember = null;
+    bank.assetsPerMemberStart = null;
+    bank.assetsPerMemberEnd = null;
   }
 
   bank.potentialMemberCount = await fetchPotentialMemberCount(bank.id);
