@@ -28,7 +28,7 @@ async function scrapeLinksWithClass() {
 }
 
 async function fetchTotalAssets(id) {
-  const reportUrl = `https://www.ibanknet.com/scripts/callreports/viewreport.aspx?ibnid=${id}&per=20231231&rpt=NC&typ=html`;
+  const reportUrl = `https://www.ibanknet.com/scripts/callreports/viewreport.aspx?ibnid=${id}&per=20240930&rpt=NC&typ=html`;20231231
 
   try {
     const res = await axios.get(reportUrl);
@@ -53,7 +53,7 @@ async function fetchTotalAssets(id) {
 }
 
 async function fetchTotalAssetsYTD(id) {
-  const reportUrl = `https://www.ibanknet.com/scripts/callreports/viewreport.aspx?ibnid=${id}&per=20240930&rpt=NC&typ=html`;
+  const reportUrl = `https://www.ibanknet.com/scripts/callreports/viewreport.aspx?ibnid=${id}&per=20231231&rpt=NC&typ=html`;
 
   try {
     const res = await axios.get(reportUrl);
@@ -103,7 +103,7 @@ async function fetchMarketingBudget(id) {
 }
 
 async function fetchMemberCount(id) {
-  const reportUrl = `https://www.ibanknet.com/scripts/callreports/viewreport.aspx?ibnid=${id}&per=20231231&rpt=D&typ=html`;
+  const reportUrl = `https://www.ibanknet.com/scripts/callreports/viewreport.aspx?ibnid=${id}&per=20240930&rpt=D&typ=html`;20231231
 
   try {
     const res = await axios.get(reportUrl);
@@ -153,7 +153,7 @@ async function fetchPotentialMemberCount(id) {
 }
 
 async function fetchMemberCountYTD(id) {
-  const reportUrl = `https://www.ibanknet.com/scripts/callreports/viewreport.aspx?ibnid=${id}&per=20240930&rpt=D&typ=html`;
+  const reportUrl = `https://www.ibanknet.com/scripts/callreports/viewreport.aspx?ibnid=${id}&per=20231231&rpt=D&typ=html`;
 
   try {
     const res = await axios.get(reportUrl);
