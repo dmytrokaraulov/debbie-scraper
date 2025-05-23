@@ -113,7 +113,7 @@ async function updateDataFile() {
           bank.costPerDollarOfAssets = assetDelta === 0
             ? "Undefined"
             : assetDelta < 0
-              ? "Negative ROA"
+              ? "Negative ROI"
               : `$${(marketingBudget / assetDelta).toFixed(2).replace(/\B(?=(\d{3})+(?!\d))/g, ",")}`;
         } else {
           bank.costPerDollarOfAssets = null;
