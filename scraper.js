@@ -90,7 +90,7 @@ async function updateDataFile() {
 
       if (memberCount !== undefined && memberCountYTD !== undefined) {
         const memberChange = memberCountYTD - memberCount;
-        bank.memberChange = memberChange;
+        bank.memberChange = memberChange >= 0 ? `+${memberChange}` : `${memberChange}`;
 
         bank.mac = (memberChange > 0 && marketingBudget !== undefined)
           ? `$${(marketingBudget / memberChange).toFixed(2).replace(/\B(?=(\d{3})+(?!\d))/g, ",")}`
