@@ -85,9 +85,9 @@ async function updateDataFile() {
         dataD_Y
       ] = await Promise.all([
         fetchReportData(id, '20240331', 'NC'),
-        fetchReportData(id, '20240331', 'NC'),
-        fetchReportData(id, '20240331', 'NI'),
-        fetchReportData(id, '20241231', 'D'),
+        fetchReportData(id, '20241231', 'NC'),
+        fetchReportData(id, '20241231', 'NI'),
+        fetchReportData(id, '20240331', 'D'),
         fetchReportData(id, '20241231', 'D')
       ]);
 
@@ -96,7 +96,7 @@ async function updateDataFile() {
       const totalAssets = dataNC_Q['TOTAL ASSETS'];
       const totalAssetsYTD = dataNC_Y['TOTAL ASSETS'];
       const quarterlyMarketingBudget = dataNI_Q['Educational and Promotional Expenses'];
-      const marketingBudget = getAnnualizedMarketingBudget('20240331', quarterlyMarketingBudget);
+      const marketingBudget = getAnnualizedMarketingBudget('20241231', quarterlyMarketingBudget);
       const potentialMembers = dataD_Q['Number of potential members'];
       const depositYTD = dataD_Y['TOTAL SHARES and DEPOSITS (Sum of items 7 and 8) (Total Amount)'];
 
