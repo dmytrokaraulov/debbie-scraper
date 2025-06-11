@@ -2,6 +2,21 @@ const axios = require('axios');
 const cheerio = require('cheerio');
 const fs = require('fs');
 
+function getAnnualizedMarketingBudget(date, quarterlyBudget) {
+  if (!quarterlyBudget) return null;
+  
+  const month = parseInt(date.substring(4, 6), 10);
+  let multiplier;
+  
+  if (month === 3) multiplier = 0.25;      // Q1 - 25% of year
+  else if (month === 6) multiplier = 0.5;  // Q2 - 50% of year
+  else if (month === 9) multiplier = 0.75; // Q3 - 75% of year
+  else if (month === 12) multiplier = 1;   // Q4 - 100% of year
+  else return null;
+  
+  return Math.round(quarterlyBudget / multiplier);
+}
+
 async function scrapeLinksWithClass() {
   const url = 'https://www.ibanknet.com/scripts/callreports/fiList.aspx?type=ncua';
   const res = await axios.get(url);
@@ -80,7 +95,8 @@ async function updateDataFile() {
       const memberCountYTD = dataD_Y['Number of current members (not number of accounts)'];
       const totalAssets = dataNC_Q['TOTAL ASSETS'];
       const totalAssetsYTD = dataNC_Y['TOTAL ASSETS'];
-      const marketingBudget = dataNI_Q['Educational and Promotional Expenses'];
+      const quarterlyMarketingBudget = dataNI_Q['Educational and Promotional Expenses'];
+      const marketingBudget = getAnnualizedMarketingBudget('20240930', quarterlyMarketingBudget);
       const potentialMembers = dataD_Q['Number of potential members'];
       const depositYTD = dataD_Y['TOTAL SHARES and DEPOSITS (Sum of items 7 and 8) (Total Amount)'];
 
