@@ -84,11 +84,11 @@ async function updateDataFile() {
         dataD_Q,
         dataD_Y
       ] = await Promise.all([
-        fetchReportData(id, '20240930', 'NC'),
-        fetchReportData(id, '20231231', 'NC'),
-        fetchReportData(id, '20240930', 'NI'),
-        fetchReportData(id, '20240930', 'D'),
-        fetchReportData(id, '20231231', 'D')
+        fetchReportData(id, '20250331', 'NC'),
+        fetchReportData(id, '20240331', 'NC'),
+        fetchReportData(id, '20250331', 'NI'),
+        fetchReportData(id, '20250331', 'D'),
+        fetchReportData(id, '20240331', 'D')
       ]);
 
       const memberCount = dataD_Q['Number of current members (not number of accounts)'];
