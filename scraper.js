@@ -4,7 +4,7 @@ const fs = require('fs');
 
 // Date variables for report periods
 const startDate = '20240331';  // Q1 2024
-const endDate = '20250331';    // Q4 2024
+const endDate = '20241231';    // Q4 2024
 
 function getAnnualizedMarketingBudget(date, quarterlyBudget) {
   if (!quarterlyBudget) return null;
@@ -12,10 +12,10 @@ function getAnnualizedMarketingBudget(date, quarterlyBudget) {
   const month = parseInt(date.substring(4, 6), 10);
   let multiplier;
   
-  if (month === 3) multiplier = 0.25;      // Q1 - 25% of year
-  else if (month === 6) multiplier = 0.5;  // Q2 - 50% of year
-  else if (month === 9) multiplier = 0.75; // Q3 - 75% of year
-  else if (month === 12) multiplier = 1;   // Q4 - 100% of year
+  if (month === 3) multiplier = 0.25;      
+  else if (month === 6) multiplier = 0.5; 
+  else if (month === 9) multiplier = 0.75; 
+  else if (month === 12) multiplier = 1;   
   else return null;
   
   return Math.round(quarterlyBudget / multiplier);
@@ -100,7 +100,7 @@ async function updateDataFile() {
       const totalAssets = dataNC_Q['TOTAL ASSETS'];
       const totalAssetsYTD = dataNC_Y['TOTAL ASSETS'];
       const quarterlyMarketingBudget = dataNI_Q['Educational and Promotional Expenses'];
-      const marketingBudget = getAnnualizedMarketingBudget('20241231', quarterlyMarketingBudget);
+      const marketingBudget = getAnnualizedMarketingBudget(endDate, quarterlyMarketingBudget);
       const potentialMembers = dataD_Q['Number of potential members'];
       const depositYTD = dataD_Y['TOTAL SHARES and DEPOSITS (Sum of items 7 and 8) (Total Amount)'];
 
