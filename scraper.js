@@ -145,11 +145,14 @@ async function getLatestAvailableDates() {
 
 async function updateDataFile() {
   try {
-    // Get the latest available dates
-    const { startDate, endDate } = await getLatestAvailableDates();
-    console.log(`Using report period: ${startDate} to ${endDate}`);
-
     const banks = await scrapeLinksWithClass();
+    
+    // Create metadata object with dates
+    const metadata = {
+      startDate,
+      endDate,
+      scrapeTimestamp: new Date().toISOString()
+    };
 
     for (const bank of banks) {
       const id = bank.id;
@@ -226,7 +229,13 @@ async function updateDataFile() {
       }
     }
 
-    fs.writeFileSync('data.json', JSON.stringify(banks, null, 2));
+    // Create final output object with metadata and banks data
+    const output = {
+      metadata,
+      banks
+    };
+
+    fs.writeFileSync('data.json', JSON.stringify(output, null, 2));
     console.log('Data saved to data.json!');
   } catch (err) {
     console.error('Error during scraping:', err);
