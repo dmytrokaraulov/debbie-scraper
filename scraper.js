@@ -4,7 +4,7 @@ const fs = require('fs');
 
 // Date variables for report periods
 const startDate = '20240331';  // Q1 2024
-const endDate = '20241231';    // Q4 2024
+const endDate = '20250331';    // Q4 2024
 
 function getAnnualizedMarketingBudget(date, quarterlyBudget) {
   if (!quarterlyBudget) return null;
