@@ -2,6 +2,10 @@ const axios = require('axios');
 const cheerio = require('cheerio');
 const fs = require('fs');
 
+// Date variables for report periods
+const startDate = '20240331';  // Q1 2024
+const endDate = '20241231';    // Q4 2024
+
 function getAnnualizedMarketingBudget(date, quarterlyBudget) {
   if (!quarterlyBudget) return null;
   
@@ -84,11 +88,11 @@ async function updateDataFile() {
         dataD_Q,
         dataD_Y
       ] = await Promise.all([
-        fetchReportData(id, '20240331', 'NC'),
-        fetchReportData(id, '20241231', 'NC'),
-        fetchReportData(id, '20241231', 'NI'),
-        fetchReportData(id, '20240331', 'D'),
-        fetchReportData(id, '20241231', 'D')
+        fetchReportData(id, startDate, 'NC'),
+        fetchReportData(id, endDate, 'NC'),
+        fetchReportData(id, endDate, 'NI'),
+        fetchReportData(id, startDate, 'D'),
+        fetchReportData(id, endDate, 'D')
       ]);
 
       const memberCount = dataD_Q['Number of current members (not number of accounts)'];
