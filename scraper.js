@@ -4,7 +4,7 @@ const fs = require('fs');
 
 // Date variables for report periods
 const startDate = '20240331';  // Q1 2024
-const endDate = '20241231';    // Q4 2024
+const endDate = '20250331';    // Q4 2024
 
 function getAnnualizedMarketingBudget(date, quarterlyBudget) {
   if (!quarterlyBudget) return null;
@@ -74,8 +74,81 @@ async function fetchReportData(id, per, rpt) {
   }
 }
 
+async function checkReportAvailability(id, date, reportType) {
+  try {
+    const data = await fetchReportData(id, date, reportType);
+    // Check if we got any meaningful data back
+    return Object.keys(data).length > 0;
+  } catch (err) {
+    return false;
+  }
+}
+
+async function getLatestAvailableDates() {
+  // Get current date
+  const now = new Date();
+  const currentYear = now.getFullYear();
+  const currentMonth = now.getMonth() + 1; // JavaScript months are 0-based
+  
+  // Determine current quarter
+  let currentQuarter = Math.ceil(currentMonth / 3);
+  let currentYearStr = currentYear.toString();
+  
+  // Quarter end dates
+  const quarterEndDates = {
+    1: '0331', // Q1
+    2: '0630', // Q2
+    3: '0930', // Q3
+    4: '1231'  // Q4
+  };
+
+  // Start with a test ID (we'll use the first bank we find)
+  const testBanks = await scrapeLinksWithClass();
+  if (testBanks.length === 0) {
+    throw new Error('No banks found to test report availability');
+  }
+  const testId = testBanks[0].id;
+
+  // Try to find the most recent available report
+  let endDate = null;
+  let startDate = null;
+  
+  // Try up to 4 quarters back
+  for (let i = 0; i < 4; i++) {
+    const quarter = currentQuarter - i;
+    const year = currentYear - Math.floor((currentQuarter - i - 1) / 4);
+    const dateStr = `${year}${quarterEndDates[((quarter - 1) % 4) + 1]}`;
+    
+    // Check if report is available
+    const isAvailable = await checkReportAvailability(testId, dateStr, 'NC');
+    
+    if (isAvailable) {
+      endDate = dateStr;
+      // Calculate start date (same quarter, previous year)
+      const startYear = year - 1;
+      startDate = `${startYear}${quarterEndDates[((quarter - 1) % 4) + 1]}`;
+      
+      // Verify start date is also available
+      const startDateAvailable = await checkReportAvailability(testId, startDate, 'NC');
+      if (startDateAvailable) {
+        break;
+      }
+    }
+  }
+
+  if (!endDate || !startDate) {
+    throw new Error('Could not find available report dates');
+  }
+
+  return { startDate, endDate };
+}
+
 async function updateDataFile() {
   try {
+    // Get the latest available dates
+    const { startDate, endDate } = await getLatestAvailableDates();
+    console.log(`Using report period: ${startDate} to ${endDate}`);
+
     const banks = await scrapeLinksWithClass();
 
     for (const bank of banks) {
