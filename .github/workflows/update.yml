@@ -1,12 +1,12 @@
-name: Update data.json twice daily
+name: Update data.json daily
 
 permissions:
   contents: write
 
 on:
   schedule:
-    # Runs at 6:00 and 18:00 UTC daily
-    - cron: '0 6,18 * * *'
+    # Runs at 6:00 UTC daily
+    - cron: '0 6 * * *'
   workflow_dispatch:
 
 jobs:
@@ -33,5 +33,10 @@ jobs:
           git config user.name "GitHub Actions"
           git config user.email "actions@github.com"
           git add data.json
-          git commit -m "Update data.json"
-          git push
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+            exit 0
+          else
+            git commit -m "Update data.json"
+            git push
+          fi
